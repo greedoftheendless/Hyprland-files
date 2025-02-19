@@ -1,2 +1,2 @@
 # Hyprland-files
-My hyprladn cofig files
+My Hyprland cofig files
