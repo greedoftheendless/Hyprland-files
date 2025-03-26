@@ -1,0 +1,56 @@
+window {
+    font-family: Fira Code, monospace;
+    font-size: 12pt;
+    color: #f4dfcd; 
+    background-color: rgba(30, 30, 46, .69);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 50%;
+    border: none;
+    color: #FFFFFF;
+    text-shadow: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(1, 121, 111, 0);
+    margin: 1px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(203, 166, 247, 0.3);
+}
+
+#lock {
+    background-image: image(url("/home/greed/.config/wlogout/icons/lock.png"));
+    background-size: 50%;
+}
+
+#logout {
+    background-image: image(url("/home/greed/.config/wlogout/icons/logout.png"));
+    background-size: 50%;
+}
+
+#suspend {
+    background-image: image(url("/home/greed/.config/wlogout/icons/sleep.png"));
+    background-size: 50%;
+} 
+
+#shutdown {
+    background-image: image(url("/home/greed/.config/wlogout/icons/power.png"));
+    background-size: 50%;
+}
+
+#reboot {
+    background-image: image(url("/home/greed/.config/wlogout/icons/restart.png"));
+    background-size: 50%;
+}
+
+#hibernate {
+    background-image: image(url("/home/greed/.config/wlogout/icons/hibernate.png"));
+    background-size: 50%;
+}
