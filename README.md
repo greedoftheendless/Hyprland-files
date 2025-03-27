@@ -1,15 +1,16 @@
-## Setup Instructions:
-  Essential packages
-    yay git paru home-brew rofi hyprpanel kitty nerd-fonts wlogout fastfetch spicetify picom starship zsh(z shell with oh-my-zsh) hyprlock hypridle.
-
-  Pre-Installation 
+## Setup instructions
+  Install essential packages
     
-  1.Base installation 
-      Hyprland works best in Arch. The installation I have done is in Cachy OS(Arch based distribution). For beginners I would recommend the same or install arch and then do archinstall. For base/backup DE I would recommend KDE. But you can choose GNOME, i3, Cosmic etc... as your preference. 
-    
-  2. After the installation of your system, install kitty and install hyprland using the command 
-      sudo pacman -S kitty && sudo pacman -S hyprland
-   
-  3. Log out or restart your system, and once your in your lock screen, at the corners you will see a button. Click on it and you will enter hyprland. At first you will see a black screen. Press Windows(mod key)+enter and you will enter the terminal which is kitty. From here on it's your choice on how to customize your hyprland. 
+    yay paru home-brew kitty zsh swww hyprpanel waypaper-engine hyprlock hypridle hyprpaper rofi starfield picom wlogout neovim git fzf eza btop cava  stow pywal(wal)
 
-  4.As a starter I would say read hyprland docs and work or install someone else's setup or watch a video of Typecraft on how to build hyprland. When you get your base installation done, you can copy the config files from mine to yours.
+  Package wise instructions
+
+->zsh
+This is gonna be the main shell your using. Next we have to install Oh-my-zsh by typing oh-my-zsh.git. After that you can go to your ~/.zshrc file and search for a line that says plugin. There you can add plugins such as git, syntax highlight, history, autocorrect etc... Or after downloading the dependencies, you can go to the dotfiles folder and enter:
+
+    stow .
+This will stow all the files in dotfiles directory making my files yours and syncing all the changes done. 
+For more information on stow, google it or search stow official page.
+
+Using my .zshrc you will fzf(fuzzy file finder tool in terminal), eza(better ls), atuin(Better history), etc...
+
