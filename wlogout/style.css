@@ -26,31 +26,31 @@ button:hover {
 }
 
 #lock {
-    background-image: image(url("/home/greed/.config/wlogout/icons/lock.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/lock.svg"));
     background-size: 50%;
 }
 
 #logout {
-    background-image: image(url("/home/greed/.config/wlogout/icons/logout.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/logout.svg"));
     background-size: 50%;
 }
 
 #suspend {
-    background-image: image(url("/home/greed/.config/wlogout/icons/sleep.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/suspend.svg"));
     background-size: 50%;
 } 
 
 #shutdown {
-    background-image: image(url("/home/greed/.config/wlogout/icons/power.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/shutdown.svg"));
     background-size: 50%;
 }
 
 #reboot {
-    background-image: image(url("/home/greed/.config/wlogout/icons/restart.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/reboot.svg"));
     background-size: 50%;
 }
 
 #hibernate {
-    background-image: image(url("/home/greed/.config/wlogout/icons/hibernate.png"));
+    background-image: image(url("/home/greed/.config/wlogout/icons/hibernate.svg"));
     background-size: 50%;
 }

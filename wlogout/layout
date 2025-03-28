@@ -1,13 +1,13 @@
 {
     "label" : "lock",
     "action" : "$HOME/.config/wlogout/scripts/anction lock",
-    "keybind" : "L"
+    "keybind" : "l"
 }
 
 {
     "label" : "logout",
     "action" : "$HOME/.config/wlogout/scripts/anction logout",
-    "keybind" : "l"
+    "keybind" : "L"
 }
 
 {
@@ -25,7 +25,7 @@
 {
     "label" : "suspend",
     "action" : "$HOME/.config/wlogout/scripts/anction suspend",
-    "keybind" : "s"
+    "keybind" : "S"
 }
 
 {
