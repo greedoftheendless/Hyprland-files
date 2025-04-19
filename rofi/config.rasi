@@ -3,14 +3,14 @@
 // General Configurations
 configuration {
         font: "SpaceMono Nerd Font 12";
-	modi: "drun,run,filebrowser,window";
+	modi: "drun,emoji,filebrowser,run";
     display-drun: "APPS";
     display-run: "RUN";
     display-filebrowser: "FILES";
-    display-window: "WINDOW";
+    display-emoji: "EMOJI";
 	drun-display-format: "{name}";
 	window-format: "{w} · {c} · {t}";
-	case-sensitive: false;
+	case-sensitive: true;
 	normalize-match: true;
 	icon-theme: "Tela-circle";    
     show-icons: true;
@@ -91,7 +91,7 @@ mainbox {
 imagebox {
     padding:                     10px;
     background-color:            transparent;
-    background-image:            url("/home/greed/Pictures/Pics/Wallpapers/astro.jpg", height);
+    background-image:            url("/home/greed/Pictures/Pics/Icons-profile pics/astro.jpg", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
