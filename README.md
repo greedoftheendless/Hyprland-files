@@ -30,26 +30,16 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 
 <details>
   <summary>Click to expand</summary>
-
-  ![better-control app]($HOME/Hyprland repo/Screenshots/better-control.png)
-  
-  ![Fastfetch]($HOME/Hyprland repo/Screenshots/Fastfetch-show.png)
-  
-  ![Home-Screen]($HOME/Hyprland repo/Screenshots/Home Page.png)
-
-  ![Dashboard(Hyprpanel)]($HOME/Hyprland repo/Screenshots/Hyprpanel(Dashboard).png)
-
-  ![Lockscreen]($HOME/Hyprland repo/Screenshots/lockscreen.png)
-
-  ![Rofi with apps]($HOME/Hyprland repo/Screenshots/Rofi-Apps.png)
-
-  ![Rofi with emoji($HOME/Hyprland repo/Screenshots/Rofi-Emoji.png)
-
-  ![Rofi with files]($HOME/Hyprland repo/Screenshots/Rofi-Files.png)
-
-  ![terminal]($HOME/Hyprland repo/Screenshots/Terminal-Show.png)
-
-  ![Spotify]($HOME/Hyprland repo/Screenshots/Spotify(Spictified).png)
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch-show.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png
+  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png
 
 </details>
 
