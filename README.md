@@ -95,7 +95,7 @@ Inspired and based on the incredible work from:
 
 Hyprland Official Wiki
 
-r/unixporn
+https://www.reddit.com/r/unixporn/
 
 https://github.com/shell-ninja/hyprconf?tab=readme-ov-file#keyboards
 
