@@ -30,15 +30,25 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 
 <details>
   <summary>Click to expand</summary>
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch-show.png
+
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png
+  
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png
 
 </details>
