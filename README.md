@@ -46,22 +46,23 @@
 
 ### 1. Clone the repository:
 
-```bash
-git https://github.com/greedoftheendless/Hyprland-files.git
+```bash```
+git clone https://github.com/yourusername/your-repo-name ~/.config/
 
 Install the required packages
 
+```bash````
 yay -S hyprland waybar rofi kitty swww lazyvim mpvpaper waypaper Hyprpanel starship zsh playerctl grim slurp picom 
 
 Adjust packages if needed depending on your setup.
 
-3. Symlink or copy necessary config files:
+Symlink or copy necessary config files:
 
 The files in dotfile folders were the one I have symlinked. Any importand folders you feel can be symlinked, but the dotfile files are the one I would recommend symlinking as those are your main terminall files.
 
 Or manually move/copy them based on your preference.
 
-4. Set Hyprland as your session:
+ Set Hyprland as your session:
 
 If you're using a display manager (GDM, SDDM, etc.), select Hyprland before logging in.
 
