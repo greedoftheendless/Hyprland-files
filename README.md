@@ -47,7 +47,7 @@
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name ~/.config/
+git https://github.com/greedoftheendless/Hyprland-files.git
 
 Install the required packages
 
