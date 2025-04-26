@@ -93,12 +93,12 @@ Waybar is highly modular and supports multiple modules like battery, wifi, media
 
 Inspired and based on the incredible work from:
 
-    Hyprland Official Wiki
+Hyprland Official Wiki
 
-    r/unixporn
-    https://github.com/shell-ninja/hyprconf?tab=readme-ov-file#keyboards
-    https://gitlab.com/saibhargav/arch-hypr-1
-    https://github.com/JaKooLit/Hyprland-Dots
+r/unixporn
+https://github.com/shell-ninja/hyprconf?tab=readme-ov-file#keyboards
+https://gitlab.com/saibhargav/arch-hypr-1
+https://github.com/JaKooLit/Hyprland-Dots
     
 
 
