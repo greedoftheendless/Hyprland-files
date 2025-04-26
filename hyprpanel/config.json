@@ -12,8 +12,8 @@
   "theme.bar.buttons.enableBorders": true,
   "bar.launcher.autoDetectIcon": false,
   "theme.bar.buttons.dashboard.enableBorder": true,
-  "bar.workspaces.showApplicationIcons": true,
-  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.showWsIcons": false,
   "bar.workspaces.show_icons": false,
   "bar.workspaces.numbered_active_indicator": "highlight",
   "bar.network.showWifiInfo": true,
@@ -28,7 +28,7 @@
   "notifications.autoDismiss": true,
   "theme.osd.muted_zero": true,
   "menus.clock.weather.location": "560077",
-  "menus.dashboard.powermenu.avatar.image": "/home/greed/.config/hypr/Pics/Icons-profile pics/absdark_small.png",
+  "menus.dashboard.powermenu.avatar.image": "/home/greed/Pictures/Pics/Icons-profile pics/absdark_small.png",
   "menus.dashboard.powermenu.avatar.name": "Anonymous",
   "menus.dashboard.stats.enable_gpu": false,
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Zen Browser",
@@ -46,8 +46,8 @@
   "bar.customModules.cava.stereo": true,
   "menus.power.lowBatteryNotification": true,
   "menus.power.lowBatteryThreshold": 25,
-  "bar.workspaces.spacing": 2,
-  "bar.workspaces.workspaces": 5,
+  "bar.workspaces.spacing": 0.8,
+  "bar.workspaces.workspaces": 0,
   "theme.bar.transparent": true,
   "bar.media.truncation_size": 30,
   "theme.bar.scaling": 100,
@@ -77,7 +77,7 @@
   "theme.bar.location": "top",
   "theme.bar.layer": "overlay",
   "theme.bar.buttons.workspaces.enableBorder": true,
-  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_numbered": true,
   "bar.workspaces.workspaceMask": true,
   "bar.workspaces.applicationIconOncePerWorkspace": false,
   "bar.workspaces.reverse_scroll": true,
@@ -117,5 +117,59 @@
   "theme.bar.menus.menu.media.card.tint": 100,
   "theme.bar.menus.menu.media.scaling": 100,
   "theme.bar.menus.menu.clock.scaling": 100,
-  "bar.autoHide": "fullscreen"
+  "bar.autoHide": "fullscreen",
+  "bar.customModules.cava.leftClick": "cava",
+  "bar.windowtitle.truncation_size": 50,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "systray",
+        "media"
+      ],
+      "middle": [
+        "workspaces",
+        "cava"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "clock"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.customModules.cava.bars": 25,
+  "bar.customModules.cava.framerate": 120
 }
