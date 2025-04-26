@@ -72,14 +72,22 @@ exec Hyprland
 
 
 📚 Notes
-    Wallpapers are managed by waypaper(using swww and mpvpaper as an engine/backend).
-    Notifications handled by Sway Notifications Control(Swaync).
-    Audio managed through pavucontrol and wpctl.
-    Lock screen uses hyprpanel with music player widget(under dev) and customized theming.
-    Autostart apps/scripts configured inside Hyprland's autostart.conf
-    These can be configured/changed in $HOME/.config/hypr/hyprland.conf under the exec = line.
-    Scratchpads are configured for quick access terminals, music, notes, etc.
-    Waybar is highly modular and supports multiple modules like battery, wifi, media player, etc.
+
+Wallpapers are managed by waypaper(using swww and mpvpaper as an engine/backend).
+
+Notifications handled by Sway Notifications Control(Swaync).
+
+Audio managed through pavucontrol and wpctl.
+
+Lock screen uses hyprpanel with music player widget(under dev) and customized theming.
+
+Autostart apps/scripts configured inside Hyprland's autostart.conf
+
+These can be configured/changed in $HOME/.config/hypr/hyprland.conf under the exec = line.
+
+Scratchpads are configured for quick access terminals, music, notes, etc.
+
+Waybar is highly modular and supports multiple modules like battery, wifi, media player, etc.
 
 🙏 Credits
 
