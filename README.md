@@ -46,14 +46,14 @@
 
 ### 1. Clone the repository:
 
-```bash```
+```bash
 git clone https://github.com/yourusername/your-repo-name ~/.config/
+```
 
 Install the required packages
-
-```bash````
+```bash
 yay -S hyprland waybar rofi kitty swww lazyvim mpvpaper waypaper Hyprpanel starship zsh playerctl grim slurp picom 
-
+```
 Adjust packages if needed depending on your setup.
 
 Symlink or copy necessary config files:
