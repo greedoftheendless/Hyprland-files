@@ -23,6 +23,7 @@
 - 🔄 Auto-start applications and scripts
 - ⚡ Lightweight and responsive configuration
 
+If any help for keybindings are needed, just press  + SHIFT + H for accessing the keybinding. Make sure to get the rofi file from .conf/hypr/scripts and .conf/rofi/themes.
 ---
 
 ## 📸 Screenshots
@@ -30,11 +31,25 @@
 <details>
   <summary>Click to expand</summary>
 
-  ![Screenshot 1](https://your-screenshot-link-1)
+  ![better-control app]($HOME/Hyprland repo/Screenshots/better-control.png)
   
-  ![Screenshot 2](https://your-screenshot-link-2)
+  ![Fastfetch]($HOME/Hyprland repo/Screenshots/Fastfetch-show.png)
   
-  ![Screenshot 3](https://your-screenshot-link-3)
+  ![Home-Screen]($HOME/Hyprland repo/Screenshots/Home Page.png)
+
+  ![Dashboard(Hyprpanel)]($HOME/Hyprland repo/Screenshots/Hyprpanel(Dashboard).png)
+
+  ![Lockscreen]($HOME/Hyprland repo/Screenshots/lockscreen.png)
+
+  ![Rofi with apps]($HOME/Hyprland repo/Screenshots/Rofi-Apps.png)
+
+  ![Rofi with emoji($HOME/Hyprland repo/Screenshots/Rofi-Emoji.png)
+
+  ![Rofi with files]($HOME/Hyprland repo/Screenshots/Rofi-Files.png)
+
+  ![terminal]($HOME/Hyprland repo/Screenshots/Terminal-Show.png)
+
+  ![Spotify]($HOME/Hyprland repo/Screenshots/Spotify(Spictified).png)
 
 </details>
 
