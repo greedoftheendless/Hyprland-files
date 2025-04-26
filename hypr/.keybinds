@@ -1,0 +1,15 @@
+ = 
+ + Return | open terminal (kitty)
+ + Q | kill active window
+ + E | open file manager (thunar)
+ + SHIFT + E | open terminal file manager (yazi)
+ + SPACE | launch app menu (rofi)
+ + SHIFT + L | change wallpaper (waypaper)
+ALT + SHIFT + H | better control (GUI settings control app)
+ALT + SHIFT + L | clipse (TUI Clipboard)
+  + B | Browser (Zen)
+ + SHIFT + P | Logout Bar
+  + L | Lock Device
+
+
+
