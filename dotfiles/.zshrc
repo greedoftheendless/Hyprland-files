@@ -36,7 +36,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -132,7 +132,7 @@ _fzf_comprun() {
 
 # ---- Eza (better ls) -----
 
-alias ls="eza --color=always --icons=always --grid"  
+alias ls="eza --color=always --icons=always --git --grid"  
 alias ll="eza --color=always --long --git --icons=always"
 
 # thefuck alias
