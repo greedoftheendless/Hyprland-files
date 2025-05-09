@@ -29,25 +29,28 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 ## 📸 Screenshots
 
 <details>
- [Home] https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png
+<summary>Click to expand screenshots</summary>
+
+![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)
+
+![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)
+
+![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png?raw=true)
+
+![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)
+
+![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)
+
+![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
+
+![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)
+
+![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)
+
+![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
 
 </details>
+
 
 ---
 
