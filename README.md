@@ -1,6 +1,6 @@
 # Greed's Hyprland Dotfiles
 
-> ****My custom Arch Linux(Cachy OS) setup using Hyprland window manager, optimized for aesthetics and performance.*****
+> **My custom Arch Linux(Cachy OS) setup using Hyprland window manager, optimized for aesthetics and performance.**
 
 ---
 
