@@ -154,3 +154,6 @@ eval "$(atuin init zsh)"
 export PATH="$PATH:/home/greed/.local/bin"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#Nickname for cat to bat
+alias cat='bat'
