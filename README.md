@@ -9,17 +9,17 @@
 ## ✨ Features
 
 - 🚀 **Hyprland** - Tiling Wayland Window Manager
-- 🎨 Beautiful Hyprpanel(Customized and customizable through GUI) and customized Rofi.
+- 🎨 Beautiful **Hyprpanel**(Customized and customizable through GUI) and customized Rofi.
 - 🖥️ Custom GTK theme, cursors, and icons
-- 🖋️ Kitty terminal configuration
-- 🔒 Hyprlock with smooth animations for lock screen(only when u lock by yourself) and KDE custom theme chosen style wallpaper as entry lock screen.
+- 🖋️ **Kitty** terminal configuration
+- 🔒 **Hyprlock** with smooth animations for lock screen(only when u lock by yourself) and KDE custom theme chosen style wallpaper as entry lock screen.
 - 🎧 Audio management with pavucontrol/wpctl
 - 🌄 Wallpaper daemon with swww and mpvpaper and waypaper(GUI Control Panel)
 - 🎵 Media controls (play/pause/next)
 - 🧩 Scratchpads and dynamic workspaces
 - 🖱️ Mouse gestures support
 - 🔥 Fast animations and rounded corners
-- 🐚 Zsh with Starship prompt
+- 🐚 **Zsh** with Starship prompt
 - 🔄 Auto-start applications and scripts
 - ⚡ Lightweight and responsive configuration
 
@@ -31,38 +31,38 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 <details>
 <summary>Click to expand screenshots</summary>
 
-  Home Page
+  **Home Page**
 
 ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)
 
-  Hyprpanel(Dashboard)
+  **Hyprpanel(Dashboard)**
 
 ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)
 
-  Rofi - With Apps
+  **Rofi - With Apps**
 ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png?raw=true)
 
-  Rofi - With Emoji
+  **Rofi - With Emoji**
 
 ![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)
 
-  Rofi - With Files
+  **Rofi - With Files**
 
 ![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)
 
-  Spotify - With Spictify
+  **Spotify - With Spictify**
 
 ![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
 
-  Terminal
+  **Terminal**
 
 ![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)
 
-  Better Control(Hyprland GUI Control-Centre)
+  **Better Control(Hyprland GUI Control-Centre)**
 
 ![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)
 
-  Lockscreen(Hyprlock)
+  **Lockscreen(Hyprlock)**
 
 ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
 
