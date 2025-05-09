@@ -33,45 +33,49 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 ## 📸 Screenshots
 
 <details>
-<summary>Click to expand screenshots</summary>
+<summary>Click to view the screenshots</summary>
 
-  **Home Page**
-
+**Home Page**  
 ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)
 
-
-  **Hyprpanel(Dashboard)**
+**Hyprpanel (Dashboard)**  
 ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)
 
-
-  **Rofi - With Apps**
+**Rofi - With Apps**  
 ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png?raw=true)
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div style="width: 30%;">
+    <strong>Rofi - With Emoji</strong><br>
+    ![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)
+  </div>
+  <div style="width: 30%;">
+    <strong>Rofi - With Files</strong><br>
+    ![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)
+  </div>
+  <div style="width: 30%;">
+    <strong>Spotify - With Spictify</strong><br>
+    ![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
+  </div>
+</div>
 
-  **Rofi - With Emoji**
-![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)
-
-
-  **Rofi - With Files**
-![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)
-
-
-  **Spotify - With Spictify**
-![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
-
-
-  **Terminal**
-![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)
-
-
-  **Better Control(Hyprland GUI Control-Centre)**
-![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)
-
-
-  **Lockscreen(Hyprlock)**
-![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div style="width: 30%;">
+    <strong>Terminal</strong><br>
+    ![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)
+  </div>
+  <div style="width: 30%;">
+    <strong>Better Control (Hyprland GUI Control-Centre)</strong><br>
+    ![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)
+  </div>
+  <div style="width: 30%;">
+    <strong>Lockscreen (Hyprlock)</strong><br>
+    ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
+  </div>
+</div>
 
 </details>
+
 
 
 ---
