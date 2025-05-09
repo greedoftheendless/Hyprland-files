@@ -29,11 +29,7 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 ## 📸 Screenshots
 
 <details>
-  <summary>Click to expand</summary>
-  
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch-show.png
-
-  https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png
+ [Home] https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png
   
   https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png
   
