@@ -1,6 +1,8 @@
 # Greed's Hyprland Dotfiles
 
-> **My custom Arch Linux(Cachy OS) setup using Hyprland window manager, optimized for aesthetics and performance.**
+> **Hey guys, glad you took some time to check this out. 
+  This is my hyprland rice that I had initially made with catpuccin in mind but then tweaked a bit of cyberpunl-ish theme in mind.
+  The main aim of this was to look stock, attractive, clean and something you could use in your actual device instead of something with too much animations and stuff that might just be too much and will be too much of a distraction. Hope you like this, and if you do please star it for that will encourage me to make this even more better with more usefull features. If you would like to add some tweaks to this, then pull a req, and if I feel its fine I will merge. Else I will reject while explaining the reason**
 
 ---
 
@@ -133,6 +135,11 @@ Inspired and based on the incredible work from:
 [JaKooLit's dots](https://github.com/JaKooLit/Hyprland-Dots)
     
 
+Things that remain
+
+Bash Script to install this stuff onto user device.
+Make pywal more better and responsive(automated)
+More customization and features that can be used for daily-driving the device.
 
 🎯 Final Words
 
