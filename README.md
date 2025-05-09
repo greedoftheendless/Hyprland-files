@@ -8,7 +8,7 @@
 
 ## ✨ Features
 
-- 🚀 Hyprland - Tiling Wayland Window Manager
+- 🚀 **Hyprland** - Tiling Wayland Window Manager
 - 🎨 Beautiful Hyprpanel(Customized and customizable through GUI) and customized Rofi.
 - 🖥️ Custom GTK theme, cursors, and icons
 - 🖋️ Kitty terminal configuration
