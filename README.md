@@ -34,7 +34,8 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
   Home Page
 ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)
 
-  Hyprpanjel(Dashboard)
+  Hyprpanel(Dashboard)
+
 ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)
 
   Rofi - With Apps
