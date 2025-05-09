@@ -1,8 +1,12 @@
 # Greed's Hyprland Dotfiles
+Welcome!
+Thanks for checking out my Hyprland rice. Initially, I designed this with a Catpuccin theme in mind but later tweaked it to give it a more cyberpunk-inspired vibe.
 
-> **Hey guys, glad you took some time to check this out. 
-  This is my hyprland rice that I had initially made with catpuccin in mind but then tweaked a bit of cyberpunl-ish theme in mind.
-  The main aim of this was to look stock, attractive, clean and something you could use in your actual device instead of something with too much animations and stuff that might just be too much and will be too much of a distraction. Hope you like this, and if you do please star it for that will encourage me to make this even more better with more usefull features. If you would like to add some tweaks to this, then pull a req, and if I feel its fine I will merge. Else I will reject while explaining the reason**
+The main goal was to create a setup that's clean, attractive, and minimalistic — something you could use on your actual device without overwhelming animations or distractions. It’s designed to be simple and functional while still being aesthetically pleasing.
+
+If you like what you see, please consider starring the repository! Your support will motivate me to improve it and add more useful features.
+
+If you have any tweaks or improvements in mind, feel free to submit a pull request. If I think it fits well with the theme, I’ll merge it. If not, I’ll explain the reasoning for the rejection.
 
 ---
 
