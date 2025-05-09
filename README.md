@@ -36,37 +36,26 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 <summary>Click to view the screenshots</summary>
 
 **Home Page**  
-![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)
-
-**Hyprpanel (Dashboard)**  
-![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)
-
-**Rofi - With Apps**  
+![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)  
+![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)  
 ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png?raw=true)
 
 ---
 
 **Rofi - With Emoji**  
-![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)
-
-**Rofi - With Files**  
-![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)
-
-**Spotify - With Spictify**  
+![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png?raw=true)  
+![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)  
 ![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
 
 ---
 
 **Terminal**  
-![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)
-
-**Better Control (Hyprland GUI Control-Centre)**  
-![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)
-
-**Lockscreen (Hyprlock)**  
+![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal-Show.png?raw=true)  
+![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)  
 ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
 
 </details>
+
 
 
 ---
