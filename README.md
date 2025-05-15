@@ -36,7 +36,7 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 <summary>Click to view the screenshots</summary>
 
 **Home Page**  
-![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Home%20Page.png?raw=true)  
+![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Homepage.png)
 ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Hyprpanel(Dashboard).png?raw=true)  
 ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png?raw=true)
 
