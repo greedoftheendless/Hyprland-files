@@ -151,15 +151,11 @@ And a lot of others...(Too many to mention but I never forget them)
 
 **Things that remain**
 
-**Bash Script to install this stuff onto user device.**
+**1. Bash Script to install this stuff onto user device.**
 
-|
+**2. Make pywal more better and responsive(automated)**
 
-**Make pywal more better and responsive(automated)**
-
-|
-
-**Make some widgets that can be used in homescreen(if needed)**
+**3. Make some widgets that can be used in homescreen(if needed)**
 
 
 
