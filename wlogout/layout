@@ -1,35 +1,37 @@
 {
-    "label" : "lock",
-    "action" : "$HOME/.config/wlogout/scripts/anction lock",
-    "keybind" : "l"
+    "label" : "exit",
+    "action" : "",
+    "text" : "Exit",
+    "keybind" : "h"
 }
-
-{
-    "label" : "logout",
-    "action" : "$HOME/.config/wlogout/scripts/anction logout",
-    "keybind" : "L"
-}
-
 {
     "label" : "shutdown",
-    "action" : "$HOME/.config/wlogout/scripts/anction shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown",
     "keybind" : "s"
 }
 
 {
-    "label" : "reboot",
-    "action" : "$HOME/.config/wlogout/scripts/anction reboot",
-    "keybind" : "r"
-}
-
-{
     "label" : "suspend",
-    "action" : "$HOME/.config/wlogout/scripts/anction suspend",
-    "keybind" : "S"
+    "action" : "systemctl suspend",
+    "text" : "Suspend",
+    "keybind" : "u"
 }
-
 {
-    "label" : "hibernate",
-    "action" : "$HOME/.config/wlogout/scripts/anction hibernate",
-    "keybind" : "h"
+    "label" : "lock",
+    "action" : "hyprlock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
 }
