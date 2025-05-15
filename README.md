@@ -31,8 +31,6 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 ## 📸 Screenshots
 
 <details>
-<summary>Click to view the screenshots</summary>
-
 **Home Page**  
 ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Homepage.png)
 
