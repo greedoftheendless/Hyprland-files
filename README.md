@@ -146,10 +146,11 @@ Inspired and based on the incredible work from:
 [JaKooLit's dots](https://github.com/JaKooLit/Hyprland-Dots)
     
 
-Things that remain
+**Things that remain**
 
-Bash Script to install this stuff onto user device.
-Make pywal more better and responsive(automated)
-More customization and features that can be used for daily-driving the device.
+**Bash Script to install this stuff onto user device.**
+**Make pywal more better and responsive(automated)**
+**Make some widgets that can be used in homescreen(if needed)**
 
-🌀 Stay hungry, stay foolish. Keep customizing — Greed.
+🌀 Stay hungry, stay foolish. Keep customizing 
+                                             — Greed.
