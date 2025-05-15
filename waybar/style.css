@@ -1,0 +1,111 @@
+@import "mocha.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Hack Nerd Font, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @base;
+    color: @text;
+    opacity: 0.85;
+}
+
+window#waybar.empty #window {
+    background: transparent;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: @sapphire;
+    /* margin-right: 5px; */
+}
+
+#workspaces button.active {
+    color: @sapphire;
+}
+
+#workspaces button.focused {
+    color: @sapphire;
+    background: @base;
+    /* border-radius: 10px; */
+}
+
+#workspaces button.urgent {
+    color: @red;
+    background: @base;
+    /* border-radius: 10px; */
+}
+
+#workspaces button:hover {
+    background: @crust;
+    color: @text; 
+    /* border-radius: 10px; */
+}
+
+#window,
+#network,
+#cpu,
+#memory,
+#custom-logout,
+#custom-storage
+#workspaces,
+#tray,
+
+#backlight {
+    background: @base;
+    padding: 10px 0px;
+    margin: 0px 0px;
+    border-top: 2px dashed @text;
+    border-bottom: 2px dashed @text;
+}
+
+#workspaces {
+    background: @base;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#cpu {
+    color: @maroon;
+    border-bottom: 0px;
+}
+
+#memory {
+    color: @red;
+    border-bottom: 0px;
+    margin-top: 5px;
+}
+
+#custom-storage {
+    color: @lavender;
+    border-bottom: 0px;
+    margin-top: 5px;
+}
+
+#window {
+    color: @yellow;
+    padding-left: 5px;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-top: 5px;
+}
+
+#network {
+    color:  @peach;
+    border-bottom: 0px;
+}
+
+#custom-logout {
+    color: @sky;
+    margin-bottom: 5px;
+}
+
+#custom-arrow-left {
+    margin-top: 5px;
+}
+

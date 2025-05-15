@@ -12,14 +12,11 @@
 },
 "modules": [
     "break",
-    {
-    "type": "title",
-    "key": "󰇴",
+   {
+   "type": "custom",
+   "key": "------------------󰇴 الطمع------------------",
     },
-    {
-    "type": "custom",
-    "format": "|",
-    },
+    "break",
     {
     "type": "os",
     "key": "󰣇 DISTRO",
@@ -75,10 +72,6 @@
     "key": "│ ├󰾆",
     },
     {
-    "type": "swap",
-    "key": "│ ├󰓡",
-    },
-    {
     "type": "uptime",
     "key": "│ ├󰅐",
     },
@@ -90,10 +83,6 @@
     "type": "sound",
     "key": " AUDIO",
     "format": "{2}",
-    },
-    {
-    "type": "player",
-    "key": "  ├󰥠",
     },
     {
     "type": "media",

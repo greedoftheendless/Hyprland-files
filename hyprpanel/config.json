@@ -34,15 +34,15 @@
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Zen Browser",
   "menus.dashboard.shortcuts.left.shortcut1.command": "zen-browser",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
-  "menus.dashboard.shortcuts.left.shortcut4.command": "kitty -e jiffy",
-  "menus.dashboard.shortcuts.right.shortcut1.icon": "",
-  "menus.dashboard.shortcuts.right.shortcut1.command": "obs",
-  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "OBS Studio",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.right.shortcut1.command": "hyprpicker",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Hyprpicker",
   "menus.dashboard.shortcuts.right.shortcut3.command": "hyprshot -m region",
   "menus.dashboard.shortcuts.right.shortcut3.tooltip": "Screenshot for a particular region",
   "theme.bar.buttons.modules.ram.enableBorder": true,
   "theme.bar.buttons.modules.cpuTemp.enableBorder": false,
-  "theme.bar.buttons.modules.storage.enableBorder": false,
+  "theme.bar.buttons.modules.storage.enableBorder": true,
   "bar.customModules.cava.stereo": true,
   "menus.power.lowBatteryNotification": true,
   "menus.power.lowBatteryThreshold": 25,
@@ -113,7 +113,7 @@
   "theme.bar.border.width": "0",
   "theme.bar.shadow": "0px 0px 0px 0px #16161e",
   "theme.bar.shadowMargins": "0px 0px 0px 0px",
-  "theme.bar.buttons.modules.cpu.enableBorder": false,
+  "theme.bar.buttons.modules.cpu.enableBorder": true,
   "theme.bar.menus.menu.media.card.tint": 100,
   "theme.bar.menus.menu.media.scaling": 100,
   "theme.bar.menus.menu.clock.scaling": 100,
@@ -125,11 +125,8 @@
       "left": [
         "dashboard",
         "systray",
+        "updates",
         "media"
-      ],
-      "middle": [
-        "workspaces",
-        "cava"
       ],
       "right": [
         "volume",
@@ -171,5 +168,16 @@
     }
   },
   "bar.customModules.cava.bars": 25,
-  "bar.customModules.cava.framerate": 120
+  "bar.customModules.cava.framerate": 120,
+  "menus.dashboard.shortcuts.left.shortcut3.tooltip": "OBS Studio",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "obs",
+  "menus.dashboard.shortcuts.left.shortcut3.icon": "",
+  "bar.customModules.cava.channels": 2,
+  "bar.customModules.storage.leftClick": "",
+  "bar.customModules.storage.round": true,
+  "bar.customModules.updates.leftClick": "$TERMINAL -e /usr/share/hyprpanel/scripts/runUpdates.sh -arch",
+  "bar.customModules.updates.rightClick": "",
+  "bar.customModules.netstat.networkInterface": "wlan0",
+  "bar.customModules.netstat.pollingInterval": 1000,
+  "bar.customModules.netstat.rateUnit": "auto"
 }
