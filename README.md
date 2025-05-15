@@ -13,90 +13,75 @@ If you have any tweaks or improvements in mind, feel free to submit a pull reque
 ## ✨ Features
 
 - 🚀 **Hyprland** - Tiling Wayland Window Manager
-- 🎨 Beautiful **Hyprpanel**(Customized and customizable through GUI) and customized Rofi.
+- 🎨 Beautiful **Hyprpanel and Waybar**(Customized and customizable through GUI) and customized Rofi.
 - 🖥️ Custom GTK theme, cursors, and icons
 - 🖋️ **Kitty** terminal configuration
 - 🔒 **Hyprlock** with smooth animations for lock screen(only when u lock by yourself) and KDE custom theme chosen style wallpaper as entry lock screen.
-- 🎧 Audio management with pavucontrol/wpctl
 - 🌄 Wallpaper daemon with swww and mpvpaper and waypaper(GUI Control Panel)
 - 🎵 Media controls (play/pause/next)
 - 🧩 Scratchpads and dynamic workspaces
 - 🖱️ Mouse gestures support
-- 🔥 Fast animations and rounded corners
+- 🤖 Multi-Mangement with better-control application 
 - 🐚 **Zsh** with Starship prompt
 - 🔄 Auto-start applications and scripts
 - ⚡ Lightweight and responsive configuration
 
-If any help for keybindings are needed, just press  + SHIFT + H for accessing the keybinding. Make sure to get the rofi file from .conf/hypr/scripts and .conf/rofi/themes.
----
+If any help for keybindings are needed, just press  + SHIFT + H for accessing the keybinding.
 
 ## 📸 Screenshots
 
 <details>
 <summary>Click to view the screenshots</summary>
 
-**Home Page**
-
+**Home Page**  
 ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Homepage.png)
 
 ---
 
-**Hyprpanel(Dashboard)**
-
+**Hyprpanel (Dashboard)**  
 ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Dashboard(Hyprpanel).png)
 
 ---
 
-**Fastfetch**
-
-[Fastfetch](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch.png)
-
----
-
-**Rofi(Apps Displayed)**
-
-![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files**/blob/main/Screenshots/Rofi-Apps.png?raw=true)
+**Fastfetch**  
+![Fastfetch](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch.png)
 
 ---
 
-**Rofi - With Emoji**
-
-![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/```language/main/Screenshots/Rofi-Emoji.png?raw=true)
-
----
-
-**Rofi(Files Displayed)**
-
-![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png?raw=true)  
+**Rofi - Apps Displayed**  
+![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png)
 
 ---
 
-**Spotify(With Spicitify)**
+**Rofi - Emoji**  
+![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png)
 
-![Spotify (Spictified)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png?raw=true)
+---
+
+**Rofi - Files Displayed**  
+![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png)
+
+---
+
+**Spotify (Spicetify)**  
+![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png)
 
 ---
 
 **Terminal**  
-
-![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png)  
-
----
-
-**Better Control**
-
-![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png?raw=true)  
+![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png)
 
 ---
 
-**Lockscreen(Hyprpanel)**
+**Better Control**  
+![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png)
 
-![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png?raw=true)
+---
 
+**Lockscreen (Hyprpanel)**  
+![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png)
 
 </details>
-
-
 
 ---
 
@@ -169,7 +154,5 @@ Things that remain
 Bash Script to install this stuff onto user device.
 Make pywal more better and responsive(automated)
 More customization and features that can be used for daily-driving the device.
-
-🎯 Final Words
 
 🌀 Stay hungry, stay foolish. Keep customizing — Greed.
