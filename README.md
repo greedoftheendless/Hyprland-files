@@ -64,7 +64,7 @@ If any help for keybindings are needed, just press  + SHIFT + H for accessing
 ---
 
 **Spotify (Spicetify)**  
-![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify(Spictified).png)
+![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify.png)
 
 ---
 
