@@ -154,6 +154,6 @@ Inspired and based on the incredible work from:
 
 **Make some widgets that can be used in homescreen(if needed)**
 
-🌀 Stay hungry, stay foolish. Keep customizing 
-                                            
-                                              — Greed.
+🌀 Stay hungry, stay foolish. Keep customizing
+                                          
+— Greed
