@@ -21,6 +21,7 @@ And enjoy your OS.
 ## ✨ Features
 
 - 🚀 **Hyprland** - Tiling Wayland Window Manager
+- 🏃 Installation script that installs dependency and moves file for user(with user required prompts)
 - 🎨 Beautiful **Hyprpanel and Waybar**(Customized and customizable through GUI) and customized Rofi.
 - 🖥️ Custom GTK theme, cursors, and icons
 - 🖋️ **Kitty** terminal configuration
