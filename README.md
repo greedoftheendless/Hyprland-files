@@ -8,6 +8,14 @@ If you like what you see, please consider starring the repository! Your support 
 
 If you have any tweaks or improvements in mind, feel free to submit a pull request. If I think it fits well with the theme, I’ll merge it. If not, I’ll explain the reasoning for the rejection.
 
+
+Please run the bash scripts in the important-scripts folder. Those contain the depedency installation script and the hyprland file-implementation script. 
+
+NOTE: IF YOU ARE EXPERIENCED IN CODING, MAKE SURE TO READ THE CODE AND CHANGE TO YOUR NEEDS. RUNNING WILL MAKE CHANGES TO YOUR SYSTEM. PLEASE TAKE NOTE OF THIS.
+
+And enjoy your OS.
+
+
 ---
 
 ## ✨ Features
