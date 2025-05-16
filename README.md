@@ -35,7 +35,7 @@ And enjoy your OS.
 - 🔄 Auto-start applications and scripts
 - ⚡ Lightweight and responsive configuration
 
-If any help for keybindings are needed, just press  + SHIFT + H for accessing the keybinding.
+If any help for keybindings are needed, just press 🪟(Super) + SHIFT + H for accessing the keybinding.
 
 ## 📸 Screenshots
 
