@@ -1,0 +1,22 @@
+[palette]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+cursor = "#f5e0dc"
+
+# Alerts
+AlertInfo = "#89b4fa"
+AlertWarn = "#f9e2af"
+AlertError = "#f38ba8"
+
+# Additional UI Elements
+Selection = "#45475a"
+Comment = "#7f849c"
+Link = "#89b4fa"
+Success = "#a6e3a1"
+
+# Prompt-specific
+Prompt = "#f5e0dc"
+PromptPrefix = "#fab387"
+PromptSuccess = "#a6e3a1"
+PromptError = "#f38ba8"
+
