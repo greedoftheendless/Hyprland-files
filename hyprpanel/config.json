@@ -125,15 +125,17 @@
       "left": [
         "dashboard",
         "systray",
-        "updates",
+        "storage",
         "media"
       ],
+      "middle": [],
       "right": [
         "volume",
         "network",
         "bluetooth",
         "battery",
-        "clock"
+        "clock",
+        "notifications"
       ]
     },
     "1": {
@@ -175,7 +177,7 @@
   "bar.customModules.cava.channels": 2,
   "bar.customModules.storage.leftClick": "",
   "bar.customModules.storage.round": true,
-  "bar.customModules.updates.leftClick": "$TERMINAL -e /usr/share/hyprpanel/scripts/runUpdates.sh -arch",
+  "bar.customModules.updates.leftClick": "kitty -e update",
   "bar.customModules.updates.rightClick": "",
   "bar.customModules.netstat.networkInterface": "wlan0",
   "bar.customModules.netstat.pollingInterval": 1000,
