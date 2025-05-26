@@ -164,10 +164,6 @@ And a lot of others...(Too many to mention but I never forget them)
 
 **2. Make pywal more better and responsive(automated)**
 
-**3. Make some widgets that can be used in homescreen(if needed)**
-
-
-
 
 🌀 Stay hungry, stay foolish. Keep customizing
                                           
