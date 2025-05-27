@@ -5,12 +5,6 @@
 
 fastfetch
 
-# Path to your Oh My Zsh installation.
-export ZSH="/usr/share/oh-my-zsh"
-
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -63,9 +57,18 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sudo zsh-autosuggestions zsh-syntax-highlighting)
+# Load zsh-autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-source $ZSH/oh-my-zsh.sh
+# Load zsh-syntax-highlighting
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load zsh-git-prompt (if desired)
+source ~/.zsh/git-prompt.zsh/git-prompt.zsh
+# RPROMPT='$(git_prompt_info)'  # Optional prompt addition
+
+# Load sudo plugin
+source ~/.zsh/zsh-sudo/zsh-sudo.zsh
 
 # User configuration
 
@@ -153,7 +156,27 @@ eval "$(atuin init zsh)"
 # Created by `pipx` on 2025-03-16 20:41:58
 export PATH="$PATH:/home/greed/.local/bin"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 #Nickname for cat to bat
 alias cat='bat'
+
+# Fix for Ctrl + arrow keys
+bindkey "\e[1;5C" forward-word   # Ctrl+Right
+bindkey "\e[1;5D" backward-word  # Ctrl+Left
+
+# Enable the completion system
+autoload -Uz compinit
+compinit
+
+# Enable menu selection so you get a highlighted list you can navigate with arrows
+zstyle ':completion:*' menu select
+
+# Optional: case-insensitive completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# Optional: show suggestions immediately if ambiguous
+zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
+
+# Optional: colorize completions (if you want colors)
+autoload -Uz colors && colors
+
+alias update="bash ~/.config/hypr/scripts/update.sh"

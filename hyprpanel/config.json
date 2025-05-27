@@ -31,9 +31,9 @@
   "menus.dashboard.powermenu.avatar.image": "/home/greed/Pictures/Pics/Icons-profile pics/absdark_small.png",
   "menus.dashboard.powermenu.avatar.name": "Anonymous",
   "menus.dashboard.stats.enable_gpu": false,
-  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Zen Browser",
-  "menus.dashboard.shortcuts.left.shortcut1.command": "zen-browser",
-  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Floorp Browser",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "floorp",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
   "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
   "menus.dashboard.shortcuts.right.shortcut1.icon": "",
   "menus.dashboard.shortcuts.right.shortcut1.command": "hyprpicker",
@@ -181,5 +181,8 @@
   "bar.customModules.updates.rightClick": "",
   "bar.customModules.netstat.networkInterface": "wlan0",
   "bar.customModules.netstat.pollingInterval": 1000,
-  "bar.customModules.netstat.rateUnit": "auto"
+  "bar.customModules.netstat.rateUnit": "auto",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
