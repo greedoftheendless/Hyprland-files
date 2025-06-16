@@ -178,5 +178,3 @@ zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %
 
 # Optional: colorize completions (if you want colors)
 autoload -Uz colors && colors
-
-alias update="bash ~/.config/hypr/scripts/update.sh"
