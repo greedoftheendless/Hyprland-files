@@ -8,12 +8,7 @@ If you like what you see, please consider starring the repository! Your support 
 
 If you have any tweaks or improvements in mind, feel free to submit a pull request. If I think it fits well with the theme, I’ll merge it. If not, I’ll explain the reasoning for the rejection.
 
-
-Please run the bash scripts in the important-scripts folder. Those contain the depedency installation script and the hyprland file-implementation script. 
-
-NOTE: IF YOU ARE EXPERIENCED IN CODING, MAKE SURE TO READ THE CODE AND CHANGE TO YOUR NEEDS. RUNNING WILL MAKE CHANGES TO YOUR SYSTEM. PLEASE TAKE NOTE OF THIS.
-
-And enjoy your OS.
+Enjoy your OS.
 
 
 ---
@@ -24,14 +19,14 @@ And enjoy your OS.
 - 🏃 Installation script that installs dependency and moves file for user(with user required prompts)
 - 🎨 Beautiful **Hyprpanel and Waybar**(Customized and customizable through GUI) and customized Rofi.
 - 🖥️ Custom GTK theme, cursors, and icons
-- 🖋️ **Kitty** terminal configuration
+- 🖋️ **Ghostyy** terminal configuration
 - 🔒 **Hyprlock** with smooth animations for lock screen(only when u lock by yourself) and KDE custom theme chosen style wallpaper as entry lock screen.
 - 🌄 Wallpaper daemon with swww and mpvpaper and waypaper(GUI Control Panel)
 - 🎵 Media controls (play/pause/next)
 - 🧩 Scratchpads and dynamic workspaces
 - 🖱️ Mouse gestures support
 - 🤖 Multi-Mangement with better-control application 
-- 🐚 **Zsh** with Starship prompt
+- 🐚 **Fish** with Starship prompt
 - 🔄 Auto-start applications and scripts
 - ⚡ Lightweight and responsive configuration
 
