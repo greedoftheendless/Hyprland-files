@@ -93,34 +93,27 @@ Witness the aesthetic in action!
 
 ## 🛠 Installation
 
-> ⚠️ **WARNING**: This setup is intended for **Arch Linux** based distributions. Proceed only if you know what you are doing!
+> ⚠️ **WARNING**: This setup is intended for **Nix-OS**. Proceed only if you know what you are doing!
+                Due to the declarative nature of Nix, if you follow the steps below, you will get the exact copy of my system.
 
 ### 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name) ~/.config/
+git clone [The repo ur in](https://github.com/greedoftheendless/Hyprland-files)
 
-nstall the required packages:
+### 2. Move these specific files to their locations
+    
+    .All the configurations such as Picom, Kitty etc... in ~/.config or $HOME/.config
+    .The Hyprland config file in ~/.config/hypr or $HOME/.config/hypr
+    .The Nix-config folder contents(3 or more files) in /etc/nixos
+    .flake.nix and flake.lock in /etc/nixos
 
-Bash
+### 3. Re-build your system
+    Rebuild your system using the following command
 
-yay -S hyprland waybar rofi kitty swww lazyvim mpvpaper waypaper Hyprpanel starship zsh playerctl grim slurp picom
+```bash
+sudo nixos-rebuild switch
 
-Adjust packages if needed depending on your setup.
-
-3. Symlink or copy necessary config files:
-
-The files in the dotfile folders are the ones I have symlinked. While you can symlink any important folders, I recommend symlinking the dotfile files as these are your main terminal configuration files.
-
-Alternatively, you can manually move/copy them based on your preference.
-
-4. Set Hyprland as your session:
-
-If you're using a display manager (GDM, SDDM, etc.), select Hyprland before logging in.
-
-If using TTY, you can start it manually with:
-
-exec Hyprland
 
 📚 Notes
 
