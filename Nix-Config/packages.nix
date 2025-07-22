@@ -8,7 +8,6 @@
   #Adding nix-experimental command features and nix flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
@@ -59,6 +58,7 @@
 
     # Web/Common Apps
     floorp
+    spicetify-cli
     wget
     curl
     spotify
