@@ -7,12 +7,18 @@
 
   #Adding nix-experimental command features and nix flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  
+  #Pointing nh the direction of flake
+  environment.sessionVariables = {
+    NH_FLAKE = "$HOME/dotfiles/nixos";
+  };
 
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
      
     # CLI Tools
+    openssl
     eza
     bat
     tree
@@ -37,14 +43,16 @@
     binutils
     lazygit
     unzip
-    kando
+    openvpn
+    nh
+    podman
+    xournalpp
 
     #Pentesting and related tools
     wireshark
     nmap
     ffuf
     feroxbuster
-    burpsuite
     sqlmap
     john
     netcat
@@ -55,9 +63,19 @@
     nikto
     hashcat
     steghide
+    git-dumper
+    burpsuite
+    stegseek
+    burpsuite
+    wpscan
+    whatweb
+    theharvester
+    binwalk
+    tcpdump
 
     # Web/Common Apps
     floorp
+    firefox
     spicetify-cli
     wget
     curl
@@ -72,6 +90,7 @@
     dropbox
     atuin
     cmatrix
+    kando
   ];
 
     fonts.packages = with pkgs; [
