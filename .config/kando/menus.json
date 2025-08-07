@@ -1,0 +1,333 @@
+{
+  "menus": [
+    {
+      "shortcut": "Control+Space",
+      "shortcutID": "example-menu",
+      "centered": false,
+      "root": {
+        "type": "submenu",
+        "name": "Example Menu",
+        "icon": "hackaday",
+        "iconTheme": "simple-icons-colored",
+        "children": [
+          {
+            "type": "submenu",
+            "name": "Apps",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "vesktop",
+                  "delayed": false
+                },
+                "name": "Run Command",
+                "icon": "discord",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "spotify"
+                },
+                "name": "Spotify",
+                "icon": "spotify",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "ghostty"
+                },
+                "name": "Terminal",
+                "icon": "ghostery",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "floorp"
+                },
+                "name": "Web Browser",
+                "icon": "firefoxbrowser",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "obsidian"
+                },
+                "name": "Obsidian",
+                "icon": "obsidian",
+                "iconTheme": "simple-icons-colored"
+              }
+            ],
+            "angle": 0
+          },
+          {
+            "type": "submenu",
+            "name": "Web Links",
+            "icon": "public",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://github.com/greedoftheendless"
+                },
+                "name": "GitHub",
+                "icon": "github",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://linkedin.in"
+                },
+                "name": "Linkedin",
+                "icon": "linksys",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.youtube.com"
+                },
+                "name": "YouTube",
+                "icon": "youtube",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://search.nixos.org/packages?query="
+                },
+                "name": "Nix Package Search",
+                "icon": "nixos",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://gmail.com"
+                },
+                "name": "Gmail",
+                "icon": "gmail",
+                "iconTheme": "simple-icons-colored"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "name": "Bookmarks",
+            "icon": "folder_special",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME/Downloads"
+                },
+                "name": "Downloads",
+                "icon": "download",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 38.571428571428555
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME/Videos"
+                },
+                "name": "Videos",
+                "icon": "video_camera_front",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar  $HOME/Pictures"
+                },
+                "name": "Pictures",
+                "icon": "imagesmode",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 192.85714285714283
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME/Documents"
+                },
+                "name": "Documents",
+                "icon": "text_ad",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 244.28571428571428
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME"
+                },
+                "name": "Home",
+                "icon": "home",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 295.7142857142857
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME/Music"
+                },
+                "name": "Music",
+                "icon": "music_note",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 347.1428571428571
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "name": "Audio",
+            "icon": "play_circle",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaTrackNext",
+                  "delayed": false
+                },
+                "name": "Next Track",
+                "icon": "skip_next",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 90
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaPlayPause",
+                  "delayed": false
+                },
+                "name": "Play / Pause",
+                "icon": "play_pause",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 150
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "AudioVolumeMute",
+                  "delayed": false
+                },
+                "name": "Mute",
+                "icon": "music_off",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 210
+              },
+              {
+                "type": "hotkey",
+                "data": {
+                  "hotkey": "MediaTrackPrevious",
+                  "delayed": false
+                },
+                "name": "Previous Track",
+                "icon": "skip_previous",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
+              }
+            ],
+            "angle": 180
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Other Apps",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "dropbox",
+                  "delayed": false
+                },
+                "name": "Dropbox",
+                "icon": "dropbox",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "protonvpn-app",
+                  "delayed": false
+                },
+                "name": "Proton VPN",
+                "icon": "proton",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "kitty",
+                  "delayed": false
+                },
+                "name": "Kitty",
+                "icon": "🐱",
+                "iconTheme": "emoji"
+              },
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Editors",
+                "icon": "edit_note",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "code",
+                      "delayed": false
+                    },
+                    "name": "Visual Studio Code",
+                    "icon": "codecrafters",
+                    "iconTheme": "simple-icons"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Hack Tools",
+            "icon": "☠️",
+            "iconTheme": "emoji",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "ghostty --wireshark",
+                  "delayed": true
+                },
+                "name": "Wireshark",
+                "icon": "wireshark",
+                "iconTheme": "simple-icons-colored"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "burpsuite",
+                  "delayed": true
+                },
+                "name": "Burpsuite",
+                "icon": "burpsuite",
+                "iconTheme": "simple-icons-colored"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "templates": []
+}

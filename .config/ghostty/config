@@ -1,0 +1,102 @@
+# Font Settings
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+
+# Cursor
+cursor-style = bar
+cursor-color = F5E0DC
+
+# Shell
+command = fish
+
+# Background
+background-opacity = 0.9
+
+# Colors (Catppuccin Mocha)
+foreground = CDD6F4
+background = 1E1E2E
+selection-foreground = 1E1E2E
+selection-background = F5E0DC
+
+#Window rule
+window-height=510
+window-width=1640
+
+# ANSI Palette (individual entries)
+palette = 0=45475A
+palette = 1=F38BA8
+palette = 2=A6E3A1
+palette = 3=F9E2AF
+palette = 4=89B4FA
+palette = 5=F5C2E7
+palette = 6=94E2D5
+palette = 7=BAC2DE
+palette = 8=585B70
+palette = 9=F38BA8
+palette = 10=A6E3A1
+palette = 11=F9E2AF
+palette = 12=89B4FA
+palette = 13=F5C2E7
+palette = 14=94E2D5
+palette = 15=A6ADC8
+
+# --- Default Keybindings (Manually added from ghostty +list-keybinds --default) ---
+keybind = ctrl+shift+plus=equalize_splits
+keybind = ctrl+shift+up=resize_split:up,5
+keybind = ctrl+shift+down=resize_split:down,5
+keybind = ctrl+shift+right=resize_split:right,5
+keybind = ctrl+shift+left=resize_split:left,5
+keybind = ctrl+alt+shift+j=write_screen_file:open
+keybind = super+ctrl+left_bracket=goto_split:previous
+keybind = super+ctrl+right_bracket=goto_split:next
+keybind = ctrl+up=goto_split:up
+keybind = ctrl+down=goto_split:down
+keybind = ctrl+right=goto_split:right
+keybind = ctrl+left=goto_split:left
+keybind = ctrl+shift+a=select_all
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+e=new_split:down
+keybind = ctrl+shift+i=inspector:toggle
+keybind = ctrl+shift+j=write_screen_file:paste
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+shift+o=new_split:right
+keybind = ctrl+shift+q=quit
+keybind = alt+t=new_tab
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = alt+q=close_tab
+keybind = ctrl+shift+comma=reload_config
+keybind = ctrl+shift+right=next_tab
+keybind = ctrl+shift+left=previous_tab
+keybind = ctrl+shift+page_up=jump_to_prompt:-1
+keybind = ctrl+shift+page_down=jump_to_prompt:1
+keybind = ctrl+shift+enter=toggle_split_zoom
+keybind = ctrl+shift+tab=previous_tab
+keybind = alt+one=goto_tab:1
+keybind = alt+two=goto_tab:2
+keybind = alt+three=goto_tab:3
+keybind = alt+four=goto_tab:4
+keybind = alt+five=goto_tab:5
+keybind = alt+six=goto_tab:6
+keybind = alt+seven=goto_tab:7
+keybind = alt+eight=goto_tab:8
+keybind = alt+nine=last_tab
+keybind = alt+f4=close_window
+keybind = ctrl+zero=reset_font_size
+keybind = ctrl+comma=open_config
+keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+plus=increase_font_size:1
+keybind = ctrl+equal=increase_font_size:1
+keybind = ctrl+insert=copy_to_clipboard
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+page_down=next_tab
+keybind = ctrl+enter=toggle_fullscreen
+keybind = ctrl+tab=next_tab
+keybind = shift+up=adjust_selection:up
+keybind = shift+down=adjust_selection:down
+keybind = shift+right=adjust_selection:right
+keybind = shift+left=adjust_selection:left
+keybind = shift+home=scroll_to_top
+keybind = shift+end=scroll_to_bottom
+keybind = shift+insert=paste_from_selection
+keybind = shift+page_up=scroll_page_up
+keybind = shift+page_down=scroll_page_down
