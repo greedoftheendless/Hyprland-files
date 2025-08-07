@@ -4,7 +4,16 @@ set -g fish_greeting "Welcome, $USER!"
 cat ~/.cache/wal/sequences &
 
 # Run fastfetch
-fastfetch
+#fastfetch
+
+#Alias for yazi
+alias yz=yazi
+
+#Alias for LazyGit
+alias lgit=lazygit
+
+#Alias for Zed
+alias zed=zeditor
 
 # Autosuggestions and syntax highlighting (install via fisher)
 
@@ -26,16 +35,13 @@ function __fzf_preview
 end
 
 # Aliases
-alias ls="eza --color=always --icons=always --git --grid"
+alias ls="eza --color=always --icons=always --git --tree"
 alias ll="eza --color=always --long --git --icons=always"
 alias cat="bat"
 alias cd="z"  # Requires `zoxide`
 
 # Zoxide (better cd)
 zoxide init fish | source
-
-# Spicetify PATH
-set -gx PATH $PATH $HOME/.spicetify
 
 # Pipx user bin path
 set -gx PATH $PATH $HOME/.local/bin
