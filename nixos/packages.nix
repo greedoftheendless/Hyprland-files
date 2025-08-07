@@ -30,7 +30,7 @@
   environment.systemPackages = with pkgs; [
 
     #Temporary packages
-    stow
+    nushell
 
     #Hyprland required packages
     waybar
@@ -46,6 +46,7 @@
     hyprpicker
 
     # CLI Tools
+    gemini-cli
     openssl
     eza
     bat
