@@ -1,0 +1,156 @@
+ls 
+ping google.com
+ping google.com | detect columns
+ls -la
+ping google.com | detect columns
+ps 
+podman ps -a
+zed
+trouble
+table
+ls
+touch --hellp
+tldr nushell | detect columns
+tldr nu | detect columns
+tldr nu
+pwd
+cd .config
+ls
+cd nushell/
+ls
+cd conf nu
+cd 
+cd conf nu
+cd .config/nushell/
+ls
+zed env.nu
+zeditor env.nu
+zed config.nu
+zeditor config.nu
+exit
+zed
+cd config nu
+cd ~/.config/nu
+cd ~/.config/nushell/
+ls
+zed config.nu
+zeditor config.nu
+pwd
+zeditor env.nu
+explore
+ls
+config nu
+zeditor nu
+zeditor config.nu
+zeditor env.nu
+c
+cd
+c
+y
+cd
+cd dotfiles/nixos/
+zeditor packages.nix
+nh oh switch
+nh os switch
+gemini
+gemini-cli
+pwd
+ls
+sudo zeditor packages.nix
+sudoedit packages.nix
+sudo nvim packages.nix
+nh os switch
+gemini
+gemini-cli
+gemini
+pwd
+cd
+cd .config
+ls
+cd nushell/
+ls
+zed 
+cd
+cd .config/nushell/
+cd
+exit
+cd dot nixos
+cd
+nushell
+echo $SHELL
+cd
+which eaza
+which nu
+exit
+cd
+cd dot nixos
+cd dot
+nix-shell -p virtualnox
+config nu
+$nu.config-path
+exit
+help sudo
+help nmap
+man nmap
+starship
+fzf
+cd
+fzf
+eza
+ls
+eix
+exit
+lgit
+cat config.nu
+cd ..
+cd fish/
+ls
+cat config.fish
+cat config.nu
+yz
+ps
+exit
+ls
+cd fihs
+cd fish
+cd config/fish
+cd ~/.config/fish
+cd nu
+cd ~/.config/nushell/
+cd fish
+ls
+ls -la
+ls
+exit
+nu
+exit
+cd home
+exit
+touch config.nu
+nvim config.nu
+exit
+edit
+exit
+cd
+config nu
+cd nu
+cd ~/.config/nushell/
+nvim config.nu
+exit
+config nu
+exit
+yz
+config nu
+nvim config.nu
+exit
+zeditor
+cd ..
+ls
+cd nushell
+ls
+nvim config.nu
+exi
+exot
+exit
+et
+exit

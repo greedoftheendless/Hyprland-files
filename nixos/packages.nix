@@ -59,14 +59,13 @@
     zoxide
 
     # Necessary tools
-    kitty
+    #kitty
     ghostty
     tealdeer
     git
     xfce.thunar
     yazi
     dragon-drop
-    vscode.fhs
     neovim
     zed-editor
     btop
@@ -83,6 +82,7 @@
 
     #Pentesting and related tools
     wireshark
+    netdiscover
     nmap
     ffuf
     feroxbuster
@@ -115,6 +115,7 @@
     spotify
     fastfetch
     vesktop
+    kdenlive
     dropbox
     obsidian
     clipse
