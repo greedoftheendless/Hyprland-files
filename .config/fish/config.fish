@@ -18,6 +18,9 @@ alias lgit=lazygit
 #Alias for Zed
 alias zed=zeditor
 
+#Alias for nixvim
+alias nvim "nix run github:dc-tec/nixvim"
+
 # Autosuggestions and syntax highlighting (install via fisher)
 
 # ---- Starship prompt ----

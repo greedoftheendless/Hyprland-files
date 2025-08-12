@@ -65,7 +65,6 @@
     git
     xfce.thunar
     yazi
-    neovim
     inputs.nixvim.packages.${pkgs.system}.default
     zed-editor
     btop
