@@ -13,8 +13,8 @@
         greed = inputs.nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
-            ../nixos/configuration.nix
-            ../nixos/packages.nix
+            nixos/configuration.nix
+            nixos/packages.nix
           ];
         };
       };
