@@ -1,39 +1,36 @@
 # Greed's Hyprland Dotfiles
 
-Welcome!
+Welcome! This repository contains my personal Hyprland configuration, designed for a clean and efficient workspace.
 
-Thanks for checking out my Hyprland rice. Initially, I designed this with a **Catppuccin theme** in mind but later tweaked it to give it a more **cyberpunk-inspired vibe**.
+Initially crafted with a **Catppuccin theme**, I've since refined it to a more **cyberpunk-inspired aesthetic**. The goal was a setup that's **clean, attractive, and minimalistic**, perfect for a daily driver without unnecessary animations or distractions.
 
-My main goal was to create a setup that's **clean, attractive, and minimalistic** — something you can truly use on your daily driver without overwhelming animations or distractions. It’s designed to be simple and functional while still being aesthetically pleasing.
+If you find this useful, please consider **starring the repository**! Your support is a huge motivator.
 
-If you like what you see, please consider **starring the repository**! Your support motivates me to improve it and add even more useful features.
+Have an idea for a tweak or an improvement? Feel free to **submit a pull request**. If it aligns with the theme, I'll happily merge it.
 
-Have a tweak or improvement in mind? Feel free to **submit a pull request**. If it aligns with the theme, I'll happily merge it. If not, I'll explain the reasoning behind the decision.
-
-Enjoy your OS.
+Enjoy your OS!
 
 ---
 
 ## ✨ Features
 
-This Hyprland configuration is packed with features to enhance your workflow and aesthetics:
+This configuration is packed with features to enhance your workflow and aesthetics:
 
 * 🚀 **Hyprland** - A powerful and responsive tiling Wayland Window Manager.
-* 🏃 **Automated Installation** - Includes an installation script that handles dependencies and moves files with user prompts.
-* 🎨 **Stunning UI** - Beautiful **Hyprpanel** and **Waybar** (customized and customizable through a GUI) and a refined **Rofi** configuration.
+* 🏃 **Automated Installation** - An included script handles dependencies and file placement with user prompts.
+* 🎨 **Stunning UI** - Beautiful **Hyprpanel** and **Waybar**, featuring a customizable GUI, and a refined **Rofi** configuration.
 * 🖥️ **Custom Theming** - A bespoke **GTK theme**, custom cursors, and icon sets.
-* 🖋️ **Ghostyy Terminal** - A sleek and functional terminal configuration.
-* 🔒 **Secure & Stylish Lockscreen** - **Hyprlock** with smooth animations for the lock screen (only when you lock it yourself) and a KDE custom theme-chosen style wallpaper as the entry lock screen.
-* 🌄 **Dynamic Wallpapers** - A wallpaper daemon using `swww` and `mpvpaper`, controlled by **Waypaper** (GUI Control Panel).
+* 🖋️️ **Ghostyy Terminal** - A sleek and functional terminal configuration.
+* 🔒 **Secure & Stylish Lockscreen** - **Hyprlock** provides a seamless, animated lock screen with a custom KDE-style wallpaper.
+* 🌄 **Dynamic Wallpapers** - A wallpaper daemon using `swww` and `mpvpaper`, controlled by a GUI tool called **Waypaper**.
 * 🎵 **Media Controls** - Seamless **play/pause/next** functionality for your media.
 * 🧩 **Smart Workspaces** - Efficient **scratchpads** and dynamic workspaces for enhanced productivity.
-* 🖱️ **Mouse Gestures** - Intuitive **mouse gestures** support for quicker navigation.
 * 🤖 **Multi-Management** - Streamlined control with the `better-control` application.
 * 🐚 **Fish & Starship** - A powerful **Fish shell** with a visually appealing **Starship prompt**.
 * 🔄 **Auto-Start** - Configured for automatic application and script execution on startup.
-* ⚡ **Lightweight** - A highly **lightweight and responsive** configuration for optimal performance.
+* ⚡ **Lightweight & Responsive** - A highly optimized configuration for optimal performance.
 
-Need help with **keybindings**? Just press `Super` + `SHIFT` + `H` to access the keybinding guide.
+> **Need help with keybindings?** Just press `Super` + `SHIFT` + `H` to access the keybinding guide.
 
 ---
 
@@ -41,93 +38,53 @@ Need help with **keybindings**? Just press `Super` + `SHIFT` + `H` to access the
 
 Witness the aesthetic in action!
 
-**Home Page**
-![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Homepage.png)
-
----
-
-**Hyprpanel (Dashboard)**
-![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Dashboard(Hyprpanel).png)
-
----
-
-**Fastfetch**
-![Fastfetch](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch.png)
-
----
-
-**Rofi - Apps Displayed**
-![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png)
-
----
-
-**Rofi - Emoji**
-![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png)
-
----
-
-**Rofi - Files Displayed**
-![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png)
-
----
-
-**Spotify (Spicetify)**
-![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify.png)
-
----
-
-**Terminal**
-![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png)
-
----
-
-**Better Control**
-![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png)
-
----
-
-**Lockscreen (Hyprpanel)**
-![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png)
+| **Home Page** | **Hyprpanel (Dashboard)** | **Fastfetch** |
+| :---: | :---: | :---: |
+| ![Home Page](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Homepage.png) | ![Hyprpanel (Dashboard)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Dashboard(Hyprpanel).png) | ![Fastfetch](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Fastfetch.png) |
+| **Rofi - Apps** | **Rofi - Emoji** | **Rofi - Files** |
+| ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png) | ![Rofi - Emoji](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Emoji.png) | ![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png) |
+| **Spotify (Spicetify)** | **Terminal Show** | **Better Control** |
+| ![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify.png) | ![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png) | ![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png) |
+| **Lockscreen** | | |
+| ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png) | | |
 
 ---
 
 ## 🛠 Installation
 
-> ⚠️ **WARNING**: This setup is intended for **Nix-OS**. Proceed only if you know what you are doing!
-                Due to the declarative nature of Nix, if you follow the steps below, you will get the exact copy of my system.
+> ⚠️ **WARNING**: This setup is intended for **NixOS**. Due to the declarative nature of Nix, following these steps will give you an exact copy of my system.
 
-### 1. Clone the repository:
-
-```bash
-git clone [The repo ur in](https://github.com/greedoftheendless/Hyprland-files)
-
-### 2. Move these specific files to their locations
-
-    Make a folder of your choice. Mine was dotfiles
-    Then move all of the content in the cloned repo to dotfiles.
-
-### 3. Re-build your system
-    Rebuild your system using the following command
+### 1. Clone the repository
 
 ```bash
+git clone [https://github.com/greedoftheendless/Hyprland-files](https://github.com/greedoftheendless/Hyprland-files)
+
+2. Prepare the dotfiles
+
+Place the contents of the cloned repository into a folder of your choice (e.g., ~/dotfiles).
+
+3. Rebuild your system
+
+Rebuild your system using the following command to apply the configuration.
+Bash
+
 sudo nixos-rebuild switch
 
+📚 Notes & Integrations
 
-📚 Notes
+    Wallpapers: Managed by Waypaper, utilizing swww and mpvpaper as the engine.
 
-    Wallpapers are managed by Waypaper, utilizing swww and mpvpaper as the engine/backend.
+    Notifications: Handled by Sway Notifications Control (Swaync).
 
-    Notifications are handled by Sway Notifications Control (Swaync).
+    Audio: Managed through pavucontrol and wpctl.
 
-    Audio is managed through pavucontrol and wpctl.
+    Lock Screen: Uses Hyprpanel with a music player widget (currently under development) and custom theming.
 
-    The lock screen uses Hyprpanel with a music player widget (currently under development) and customized theming.
+    Auto-Start: Configured in $HOME/.config/hypr/hyprland.conf under the exec lines.
 
-    Autostart applications and scripts are configured within Hyprland's autostart.conf. These can be configured/changed in $HOME/.config/hypr/hyprland.conf under the exec = line.
+    Scratchpads: Configured for quick access to terminals, music, and notes.
 
-    Scratchpads are configured for quick access to terminals, music, notes, etc.
-
-    Waybar is highly modular and supports various modules like battery, Wi-Fi, media player, and more.
+    Waybar: Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
 
 🙏 Credits
 
@@ -143,18 +100,18 @@ Inspired by and based on the incredible work from:
 
     JaKooLit's dots
 
-    Aeon Remnant(for the file structure and mentoring in Nix)
+    Aeon Remnant (for the file structure and Nix mentoring)
 
-    All the members of VimJoyers discord who made exploring Nix fun and easier than doing alone)
+    The VimJoyers Discord community (for making Nix exploration fun and collaborative)
 
-    And many others... (Too many to mention, but I never forget their contributions!)
+And many others... (Your contributions are never forgotten!)
 
-Things that remain:
+📝 To-Do List
 
-    Bash Script to install this stuff onto user device.
+    Create a Bash script to automate the installation process for non-NixOS users.
 
-    Make Pywal more better and responsive (automated).
+    Improve Pywal integration for better and more responsive theming.
 
-🌀 Stay hungry, stay foolish. Keep customizing!
+Stay hungry, stay foolish. Keep customizing!
 
 — Greed
