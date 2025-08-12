@@ -59,59 +59,52 @@ Witness the aesthetic in action!
 ```bash
 git clone [https://github.com/greedoftheendless/Hyprland-files](https://github.com/greedoftheendless/Hyprland-files)
 
-2. Prepare the dotfiles
+### 2. Prepare the dotfiles
 
-Place the contents of the cloned repository into a folder of your choice (e.g., ~/dotfiles).
+Place the contents of the cloned repository into a folder of your choice (e.g., `~/dotfiles`).
 
-3. Rebuild your system
+### 3. Rebuild your system
 
 Rebuild your system using the following command to apply the configuration.
-Bash
 
+```bash
 sudo nixos-rebuild switch
 
-📚 Notes & Integrations
+---
 
-    Wallpapers: Managed by Waypaper, utilizing swww and mpvpaper as the engine.
+## 📚 Notes & Integrations
 
-    Notifications: Handled by Sway Notifications Control (Swaync).
+* **Wallpapers:** Managed by `Waypaper`, utilizing `swww` and `mpvpaper` as the engine.
+* **Notifications:** Handled by Sway Notifications Control (`Swaync`).
+* **Audio:** Managed through `pavucontrol` and `wpctl`.
+* **Lock Screen:** Uses `Hyprpanel` with a music player widget (currently under development) and custom theming.
+* **Auto-Start:** Configured in `$HOME/.config/hypr/hyprland.conf` under the `exec` lines.
+* **Scratchpads:** Configured for quick access to terminals, music, and notes.
+* **Waybar:** Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
 
-    Audio: Managed through pavucontrol and wpctl.
+---
 
-    Lock Screen: Uses Hyprpanel with a music player widget (currently under development) and custom theming.
-
-    Auto-Start: Configured in $HOME/.config/hypr/hyprland.conf under the exec lines.
-
-    Scratchpads: Configured for quick access to terminals, music, and notes.
-
-    Waybar: Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
-
-🙏 Credits
+## 🙏 Credits
 
 Inspired by and based on the incredible work from:
 
-    Hyprland Wiki
-
-    r/unixporn
-
-    shell-ninja's repo
-
-    Void ninja's repo
-
-    JaKooLit's dots
-
-    Aeon Remnant (for the file structure and Nix mentoring)
-
-    The VimJoyers Discord community (for making Nix exploration fun and collaborative)
+* Hyprland Wiki
+* r/unixporn
+* shell-ninja's repo
+* Void ninja's repo
+* JaKooLit's dots
+* Aeon Remnant (for the file structure and Nix mentoring)
+* The VimJoyers Discord community (for making Nix exploration fun and collaborative)
 
 And many others... (Your contributions are never forgotten!)
 
-📝 To-Do List
+---
 
-    Create a Bash script to automate the installation process for non-NixOS users.
+### 📝 To-Do List
 
-    Improve Pywal integration for better and more responsive theming.
+* Create a Bash script to automate the installation process for non-NixOS users.
+* Improve Pywal integration for better and more responsive theming.
 
-Stay hungry, stay foolish. Keep customizing!
+**Stay hungry, stay foolish. Keep customizing!**
 
 — Greed
