@@ -102,11 +102,9 @@ Witness the aesthetic in action!
 git clone [The repo ur in](https://github.com/greedoftheendless/Hyprland-files)
 
 ### 2. Move these specific files to their locations
-    
-    .All the configurations such as Picom, Kitty etc... in ~/.config or $HOME/.config
-    .The Hyprland config file in ~/.config/hypr or $HOME/.config/hypr
-    .The Nix-config folder contents(3 or more files) in /etc/nixos
-    .flake.nix and flake.lock in /etc/nixos
+
+    Make a folder of your choice. Mine was dotfiles
+    Then move all of the content in the cloned repo to dotfiles.
 
 ### 3. Re-build your system
     Rebuild your system using the following command
