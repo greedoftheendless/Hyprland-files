@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixvim.url = "github:dc-tec/nixvim";
+    nixvim.url = "github:spector700/Akari";
   };
 
   outputs =
@@ -13,8 +13,8 @@
         greed = inputs.nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
-            ./configuration.nix
-            ./packages.nix
+            ../nixos/configuration.nix
+            ../nixos/packages.nix
           ];
         };
       };

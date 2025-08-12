@@ -2,16 +2,20 @@
   pkgs,
   inputs,
   ...
-}: {
+}:
+{
   # Enable SSH
   services.openssh.enable = true;
 
   #Adding nix-experimental command features and nix flakes
-  nix.settings.experimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   #Pointing nh the direction of flake
   environment.sessionVariables = {
-    NH_FLAKE = "$HOME/dotfiles/nixos";
+    NH_FLAKE = "$HOME/dotfiles";
   };
 
   nixpkgs.config.allowUnfree = true;
