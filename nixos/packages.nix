@@ -65,7 +65,6 @@
     git
     xfce.thunar
     yazi
-    dragon-drop
     neovim
     zed-editor
     btop
@@ -84,6 +83,7 @@
     wireshark
     netdiscover
     nmap
+    nftables
     ffuf
     feroxbuster
     sqlmap
@@ -115,7 +115,7 @@
     spotify
     fastfetch
     vesktop
-    kdenlive
+    kdePackages.kdenlive
     dropbox
     obsidian
     clipse

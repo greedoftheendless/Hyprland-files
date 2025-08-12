@@ -154,3 +154,5 @@ exot
 exit
 et
 exit
+whoami
+echo $SHELL

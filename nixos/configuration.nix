@@ -71,5 +71,14 @@
     ignoreShellProgramCheck = true;
   };
 
+# Enable the nftables firewall.
+  networking.firewall.enable = true;
+
+  # Define specific ports to allow inbound TCP traffic.
+  networking.firewall.allowedTCPPorts = [ 80 443 ];
+
+  # Define specific ports to allow inbound UDP traffic.
+  networking.firewall.allowedUDPPorts = [ 53 67 68 ];
+
   system.stateVersion = "25.05";
 }
