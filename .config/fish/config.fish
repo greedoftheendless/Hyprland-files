@@ -38,8 +38,8 @@ function __fzf_preview
 end
 
 # Aliases
-alias ls="eza --color=always --icons=always --git --tree --only-dirs --level=1"
-alias ll="eza --color=always --icons=always --git"
+alias ll="eza --color=always --icons=always --git --tree --only-dirs --level=1"
+alias ls="eza --color=always --icons=always --git"
 alias lsa="eza --color=always --icons=always --git --tree --only-dirs --level=1 --all"
 alias cat="bat"
 alias cd="z"  # Requires `zoxide`
