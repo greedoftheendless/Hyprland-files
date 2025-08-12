@@ -1,6 +1,6 @@
 {
   pkgs,
-  outputs,
+  inputs,
   ...
 }: {
   # Enable SSH
@@ -66,6 +66,7 @@
     xfce.thunar
     yazi
     neovim
+    inputs.nixvim.packages.${pkgs.system}.default
     zed-editor
     btop
     better-control
