@@ -3,13 +3,13 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nvf.url = "github:notashelf/nvf";
+    nixvim.url = "github:dc-tec/nixvim";
   };
 
   outputs = {
     self,
-    nvf,
     nixpkgs,
+    nixvim,
     ...
   }: let
     system = "x86_64-linux";
@@ -34,22 +34,6 @@
           ./packages.nix
         ];
       };
-    };
-
-    python-hacking = pkgs.mkShell {
-      buildInputs = with pkgs.python3Packages; [
-        python
-        requests
-        pwntools
-        scapy
-        flask
-        beautifulsoup4
-        cryptography
-      ];
-
-      shellHook = ''
-        echo "💻 Python Hacking Scripting Shell Activated"
-      '';
     };
   };
 }

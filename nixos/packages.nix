@@ -46,7 +46,6 @@
     hyprpicker
 
     # CLI Tools
-    inputs.nixvim.packages.x86_64-linux.default
     gemini-cli
     openssl
     eza
