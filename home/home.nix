@@ -2,12 +2,6 @@
 
 {
   imports = [
-    ./configs/git.nix
-    ./configs/ghostty.nix
-    ./configs/starship.nix
-    ./configs/fish.nix
-    ./configs/zed.nix
-    ./configs/picom.nix
   ];
 
   home.username = "greed";
