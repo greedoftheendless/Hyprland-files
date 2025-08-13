@@ -64,7 +64,6 @@
     bat
     tree
     fastfetch
-    starship
     fzf
     nix-search-tv
     fd
@@ -74,11 +73,9 @@
     #kitty
     ghostty
     tealdeer
-    git
     xfce.thunar
     yazi
     inputs.nixvim.packages.${pkgs.system}.default
-    zed-editor
     btop
     better-control
     binutils
@@ -119,8 +116,6 @@
     tcpdump
 
     # Web/Common Apps
-    librewolf
-    firefox
     libreoffice-still
     wget
     curl
