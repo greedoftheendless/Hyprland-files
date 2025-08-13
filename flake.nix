@@ -4,6 +4,10 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixvim.url = "github:spector700/Akari";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -15,6 +19,7 @@
           modules = [
             nixos/configuration.nix
             nixos/packages.nix
+            inputs.home-manager.nixosModules.default
           ];
         };
       };

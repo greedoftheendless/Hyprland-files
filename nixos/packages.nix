@@ -31,6 +31,14 @@
   programs.television.enable = true;
   programs.steam.enable = true;
 
+  #Home-manager config
+  home-manager = {
+    extraSpecialArgs = { inherit inputs; };
+    users = {
+      greed = import ../home/home.nix;
+    };
+  };
+
   environment.systemPackages = with pkgs; [
 
     #Temporary packages
