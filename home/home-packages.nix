@@ -4,43 +4,11 @@
   ...
 }:
 {
-  # Enable SSH
-  services.openssh.enable = true;
 
-  #Adding nix-experimental command features and nix flakes
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
+  #Enabling Hyprland
+  #wayland.windowManager.hyprland.enable
 
-  #Pointing nh the direction of flake
-  environment.sessionVariables = {
-    NH_FLAKE = "$HOME/dotfiles";
-  };
-
-  nixpkgs.config.allowUnfree = true;
-
-  #Enabling/Installing hyprland
-  #programs.hyprland.enable = true;
-
-  #Enabling SDDM Login manager
-  services.displayManager.gdm.enable = true;
-  services.desktopManager.gnome.enable = true;
-
-  #Installing applications/packages using enable option
-  programs.television.enable = true;
-  programs.steam.enable = true;
-
-  #Home-manager config
-  home-manager = {
-    extraSpecialArgs = { inherit inputs; };
-    users = {
-      greed = import ../home/home.nix;
-    };
-  };
-
-  environment.systemPackages = with pkgs; [
-
+  home.packages = with pkgs; [
     #Temporary packages
     nushell
 
@@ -63,26 +31,24 @@
     eza
     bat
     tree
-    fastfetch
     fzf
-    nix-search-tv
     fd
     zoxide
 
     # Necessary tools
-    #kitty
     ghostty
+    git
     tealdeer
     xfce.thunar
     yazi
     inputs.nixvim.packages.${pkgs.system}.default
+    starship
     btop
     better-control
     binutils
     lazygit
     unzip
     openvpn
-    nh
     podman
     podman-tui
     xournalpp
@@ -108,14 +74,15 @@
     git-dumper
     burpsuite
     stegseek
-    burpsuite
     wpscan
-    whatweb
     theharvester
     binwalk
     tcpdump
 
     # Web/Common Apps
+    zed-editor
+    librewolf
+    firefox
     libreoffice-still
     wget
     curl
@@ -129,15 +96,13 @@
     clipse
     protonvpn-gui
     cava
-    dropbox
     obs-studio
     atuin
     cmatrix
     kando
     protonplus
-  ];
 
-  fonts.packages = with pkgs; [
+    # Fonts
     nerd-fonts.fira-code
     nerd-fonts.jetbrains-mono
   ];

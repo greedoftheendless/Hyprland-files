@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./home-packages.nix
   ];
 
   home.username = "greed";
@@ -9,12 +10,4 @@
   home.stateVersion = "24.05";
 
   programs.home-manager.enable = true;
-
-  home.packages = with pkgs; [
-    librewolf
-    firefox
-    zed-editor
-    starship
-    git
-  ];
 }

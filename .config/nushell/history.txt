@@ -156,3 +156,4 @@ et
 exit
 whoami
 echo $SHELL
+exit
