@@ -46,6 +46,7 @@
 
     #Terminal tools
     nh
-    fcitx5
+    kando
+    better-control
   ];
 }

@@ -41,6 +41,7 @@
 
     # Necessary tools
     ghostty
+    kitty
     git
     tealdeer
     xfce.thunar
@@ -48,7 +49,6 @@
     inputs.nixvim.packages.${pkgs.system}.default
     starship
     btop
-    better-control
     binutils
     lazygit
     unzip
@@ -102,7 +102,6 @@
     obs-studio
     atuin
     cmatrix
-    kando
     protonplus
 
     # Fonts

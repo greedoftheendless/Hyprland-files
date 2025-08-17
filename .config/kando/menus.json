@@ -2,69 +2,14 @@
   "menus": [
     {
       "shortcut": "Control+Space",
-      "shortcutID": "example-menu",
+      "shortcutID": "Folder",
       "centered": false,
       "root": {
         "type": "submenu",
-        "name": "Example Menu",
+        "name": "folder-menu",
         "icon": "hackaday",
         "iconTheme": "simple-icons-colored",
         "children": [
-          {
-            "type": "submenu",
-            "name": "Apps",
-            "icon": "apps",
-            "iconTheme": "material-symbols-rounded",
-            "children": [
-              {
-                "type": "command",
-                "data": {
-                  "command": "vesktop",
-                  "delayed": false
-                },
-                "name": "Run Command",
-                "icon": "discord",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "spotify"
-                },
-                "name": "Spotify",
-                "icon": "spotify",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "ghostty"
-                },
-                "name": "Terminal",
-                "icon": "ghostery",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "floorp"
-                },
-                "name": "Web Browser",
-                "icon": "firefoxbrowser",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "obsidian"
-                },
-                "name": "Obsidian",
-                "icon": "obsidian",
-                "iconTheme": "simple-icons-colored"
-              }
-            ],
-            "angle": 0
-          },
           {
             "type": "submenu",
             "name": "Web Links",
@@ -237,97 +182,12 @@
               }
             ],
             "angle": 180
-          },
-          {
-            "type": "submenu",
-            "data": {},
-            "name": "Other Apps",
-            "icon": "apps",
-            "iconTheme": "material-symbols-rounded",
-            "children": [
-              {
-                "type": "command",
-                "data": {
-                  "command": "dropbox",
-                  "delayed": false
-                },
-                "name": "Dropbox",
-                "icon": "dropbox",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "protonvpn-app",
-                  "delayed": false
-                },
-                "name": "Proton VPN",
-                "icon": "proton",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "kitty",
-                  "delayed": false
-                },
-                "name": "Kitty",
-                "icon": "🐱",
-                "iconTheme": "emoji"
-              },
-              {
-                "type": "submenu",
-                "data": {},
-                "name": "Editors",
-                "icon": "edit_note",
-                "iconTheme": "material-symbols-rounded",
-                "children": [
-                  {
-                    "type": "command",
-                    "data": {
-                      "command": "code",
-                      "delayed": false
-                    },
-                    "name": "Visual Studio Code",
-                    "icon": "codecrafters",
-                    "iconTheme": "simple-icons"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "submenu",
-            "data": {},
-            "name": "Hack Tools",
-            "icon": "☠️",
-            "iconTheme": "emoji",
-            "children": [
-              {
-                "type": "command",
-                "data": {
-                  "command": "ghostty --wireshark",
-                  "delayed": true
-                },
-                "name": "Wireshark",
-                "icon": "wireshark",
-                "iconTheme": "simple-icons-colored"
-              },
-              {
-                "type": "command",
-                "data": {
-                  "command": "burpsuite",
-                  "delayed": true
-                },
-                "name": "Burpsuite",
-                "icon": "burpsuite",
-                "iconTheme": "simple-icons-colored"
-              }
-            ]
           }
         ]
-      }
+      },
+      "anchored": true,
+      "hoverMode": false
     }
   ],
-  "templates": []
+  "collections": []
 }

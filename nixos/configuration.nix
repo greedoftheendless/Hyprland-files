@@ -95,5 +95,9 @@
     68
   ];
 
+  environment.systemPackages = with pkgs; [
+    pkgs.adwaita-icon-theme
+  ];
+
   system.stateVersion = "25.05";
 }
