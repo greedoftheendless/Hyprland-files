@@ -5,6 +5,8 @@
     ./home-packages.nix
   ];
 
+  fonts.fontconfig.enable = true;
+
   home.username = "greed";
   home.homeDirectory = "/home/greed";
   home.stateVersion = "24.05";

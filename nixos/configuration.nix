@@ -22,6 +22,9 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  #Enable bluetooth
+  hardware.bluetooth.enable = true;
+
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
 
@@ -51,9 +54,6 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
-
-  #Enabling bluetooth services
-  services.blueman.enable = true;
 
   # Enable sound with pipewire.
   services.pulseaudio.enable = false;

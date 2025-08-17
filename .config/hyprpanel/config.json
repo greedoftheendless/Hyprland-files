@@ -1,0 +1,84 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.dashboard.powermenu.avatar.image": "/home/greed/Pictures/Pics/Icons-profile pics/absdark_small.png",
+  "theme.font.name": "JetBrainsMonoNL Nerd Font Propo",
+  "theme.font.style": "italic",
+  "theme.font.label": "JetBrainsMonoNL Nerd Font Propo Bold Italic",
+  "theme.font.size": "1.2rem",
+  "terminal": "ghostty",
+  "theme.bar.buttons.enableBorders": true,
+  "theme.bar.buttons.borderSize": "0.2em",
+  "scalingPriority": "hyprland",
+  "bar.launcher.autoDetectIcon": true,
+  "bar.network.showWifiInfo": true,
+  "theme.bar.buttons.systray.enableBorder": false,
+  "theme.notification.enableShadow": true,
+  "menus.volume.raiseMaximumVolume": true,
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.location": "India",
+  "theme.bar.transparent": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "systray",
+        "cava"
+      ],
+      "middle": [
+        "clock"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.power.lowBatteryNotification": true,
+  "bar.battery.hideLabelWhenFull": false,
+  "bar.battery.label": false,
+  "menus.dashboard.powermenu.avatar.name": "Greed",
+  "theme.bar.menus.menu.dashboard.profile.size": "8.8em",
+  "menus.dashboard.recording.path": "$HOME/Videos/OBS",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "librewolf",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Libre Wolf",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "menus.dashboard.shortcuts.right.shortcut1.command": "hyprpicker -a",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "hyprshot -m region",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹"
+}

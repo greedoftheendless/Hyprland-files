@@ -8,6 +8,9 @@
   #Enabling Hyprland
   #wayland.windowManager.hyprland.enable
 
+  #Enable hyprpanel
+  programs.hyprpanel.enable = true;
+
   home.packages = with pkgs; [
     #Temporary packages
     nushell
