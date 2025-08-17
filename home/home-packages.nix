@@ -24,6 +24,7 @@
     mpvpaper
     hyprshot
     hyprpicker
+    ffmpeg
 
     # CLI Tools
     gemini-cli
@@ -86,7 +87,6 @@
     libreoffice-still
     wget
     curl
-    flameshot
     spotify
     fastfetch
     vesktop

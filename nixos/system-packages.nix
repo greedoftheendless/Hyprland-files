@@ -7,6 +7,9 @@
   # Enable SSH
   services.openssh.enable = true;
 
+  #Adding bluetooth
+  services.blueman.enable = true;
+
   #Adding nix-experimental command features and nix flakes
   nix.settings.experimental-features = [
     "nix-command"
@@ -21,11 +24,10 @@
   nixpkgs.config.allowUnfree = true;
 
   #Enabling/Installing hyprland
-  #programs.hyprland.enable = true;
+  programs.hyprland.enable = true;
 
-  #Enabling SDDM Login manager
-  services.displayManager.gdm.enable = true;
-  services.desktopManager.gnome.enable = true;
+  #Enabling SSDM login screen
+  services.displayManager.sddm.enable = true;
 
   #Home-manager config
   home-manager = {
@@ -44,5 +46,6 @@
 
     #Terminal tools
     nh
+    fcitx5
   ];
 }
