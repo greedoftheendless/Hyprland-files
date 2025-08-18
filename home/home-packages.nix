@@ -32,6 +32,7 @@
     # CLI Tools
     gemini-cli
     openssl
+    fzf
     eza
     bat
     tree
@@ -89,6 +90,7 @@
     libreoffice-still
     wget
     curl
+    croc
     spotify
     fastfetch
     vesktop

@@ -23,13 +23,14 @@
     "0": {
       "left": [
         "dashboard",
-        "systray",
-        "cava"
+        "cava",
+        "media"
       ],
       "middle": [
         "clock"
       ],
       "right": [
+        "systray",
         "volume",
         "network",
         "bluetooth",
@@ -82,18 +83,18 @@
   "menus.dashboard.shortcuts.right.shortcut3.command": "hyprshot -m region",
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
   "bar.customModules.cava.showActiveOnly": true,
-  "bar.customModules.cava.bars": 20,
+  "bar.customModules.cava.bars": 16,
   "bar.customModules.cava.samplerate": 44100,
   "bar.customModules.cava.stereo": false,
   "bar.customModules.cava.barCharacters": [
-    " ",
+    "▁",
     "▂",
     "▃",
+    "▄",
     "▅",
     "▆",
     "▇",
-    "█",
-    "▐",
-    "▀"
-  ]
+    "█"
+  ],
+  "bar.media.show_active_only": true
 }
