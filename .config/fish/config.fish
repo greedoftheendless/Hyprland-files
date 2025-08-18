@@ -21,8 +21,6 @@ alias zed=zeditor
 #Alias for nixvim
 alias nvim "nix run github:spector700/Akari"
 
-# Autosuggestions and syntax highlighting (install via fisher)
-
 # ---- Starship prompt ----
 starship init fish | source
 

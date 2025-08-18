@@ -48,5 +48,6 @@
     nh
     kando
     better-control
+    sddm-astronaut
   ];
 }

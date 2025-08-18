@@ -35,7 +35,6 @@
     eza
     bat
     tree
-    fzf
     fd
     zoxide
 
