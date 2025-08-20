@@ -54,4 +54,21 @@
     upower
     upower-notify
   ];
+
+  #Fonts
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-emoji
+    nerd-fonts.jetbrains-mono
+    nerd-fonts.fira-code
+    nerd-fonts.fira-mono
+    nerd-fonts._0xproto
+    nerd-fonts.iosevka-term-slab
+    fira-code-symbols
+    noto-fonts # Helps with displaying non english stuff like: 𓂿
+    noto-fonts-lgc-plus
+    noto-fonts-cjk-sans
+    noto-fonts-cjk-serif
+  ];
 }

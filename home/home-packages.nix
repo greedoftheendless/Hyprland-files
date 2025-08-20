@@ -104,9 +104,5 @@
     atuin
     cmatrix
     protonplus
-
-    # Fonts
-    nerd-fonts.fira-code
-    nerd-fonts.jetbrains-mono
   ];
 }
