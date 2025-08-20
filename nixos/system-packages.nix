@@ -10,6 +10,9 @@
   #Adding bluetooth
   services.blueman.enable = true;
 
+  #Adding power-management
+  services.upower.enable = true;
+
   #Adding nix-experimental command features and nix flakes
   nix.settings.experimental-features = [
     "nix-command"
@@ -48,6 +51,7 @@
     nh
     kando
     better-control
-    sddm-astronaut
+    upower
+    upower-notify
   ];
 }

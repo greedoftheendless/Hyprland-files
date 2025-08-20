@@ -71,7 +71,7 @@
   },
   "menus.power.lowBatteryNotification": true,
   "bar.battery.hideLabelWhenFull": false,
-  "bar.battery.label": false,
+  "bar.battery.label": true,
   "menus.dashboard.powermenu.avatar.name": "Greed",
   "theme.bar.menus.menu.dashboard.profile.size": "8.8em",
   "menus.dashboard.recording.path": "$HOME/Videos/OBS",
