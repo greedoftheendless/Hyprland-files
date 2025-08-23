@@ -49,10 +49,11 @@
 
     #Terminal tools
     nh
-    kando
     better-control
     upower
     upower-notify
+    nwg-look
+    nwg-menu
   ];
 
   #Fonts

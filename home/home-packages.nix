@@ -45,6 +45,7 @@
     git
     tealdeer
     xfce.thunar
+    kdePackages.gwenview
     yazi
     inputs.nixvim.packages.${pkgs.system}.default
     starship

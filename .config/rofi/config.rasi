@@ -6,13 +6,13 @@ configuration {
 	modi: "drun,ssh,keys,run";
     display-drun: "APPS";
     display-run: "RUN";
-    display-keys: "keys";
+    display-keys: "KEYS";
     display-ssh: "SSH";
 	drun-display-format: "{name}";
 	window-format: "{w} · {c} · {t}";
 	case-sensitive: true;
 	normalize-match: true;
-	icon-theme: "Tela-circle";    
+	icon-theme: "Tela-circle";
     show-icons: true;
 
 	// Matching setting
@@ -48,7 +48,7 @@ configuration {
 	window-format: "{w} - {c} - {t:0}";
 	window-thumbnail: false;
 
-	// History and Sorting 
+	// History and Sorting
 	disable-history: false;
 	sorting-method: "normal";
 	max-history-size: 25;
@@ -56,7 +56,7 @@ configuration {
 	// File browser settings
     filebrowser {
 	  directory: "$HOME";
-      directories-first: true; 
+      directories-first: true;
       sorting-method: "name";
     }
 }
