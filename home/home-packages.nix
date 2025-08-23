@@ -98,7 +98,7 @@
     kdePackages.kdenlive
     dropbox
     obsidian
-    clipse
+    copyq
     protonvpn-gui
     cava
     obs-studio
