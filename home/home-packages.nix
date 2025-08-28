@@ -8,6 +8,12 @@
   #Enabling Hyprland
   #wayland.windowManager.hyprland.enable
 
+  #setting fzf properly
+  programs.fzf = {
+    enable = true;
+    enableFishIntegration = true;
+  };
+
   #Enable hyprpanel
   programs.hyprpanel.enable = true;
 
@@ -32,7 +38,6 @@
     # CLI Tools
     gemini-cli
     openssl
-    fzf
     eza
     bat
     tree
@@ -107,3 +112,4 @@
     protonplus
   ];
 }
+

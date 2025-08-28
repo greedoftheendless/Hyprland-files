@@ -64,5 +64,4 @@ set -g fish_color_command green
 set -g fish_color_param white
 set -g fish_color_comment yellow
 
-# Enable completion menu style
-set -g fish_complete_path ~/.config/fish/completions
+
