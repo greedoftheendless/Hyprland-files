@@ -157,3 +157,25 @@ exit
 whoami
 echo $SHELL
 exit
+zoxide init nushell | save -f ~/.zoxide.nu
+exit
+echo $SHELL
+$env.SHELL
+ls
+ps
+ls
+cd 
+cd ~/.config/nushell/
+ls
+nvim config.nu
+yz
+lgit
+cd dot
+ls
+cd 
+cd dot
+cd ~/.zoxide
+ls -la
+cd conf nu
+cd conf
+ls
