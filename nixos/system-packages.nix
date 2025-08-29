@@ -54,6 +54,7 @@
     upower-notify
     nwg-look
     nwg-menu
+    swaynotificationcenter
   ];
 
   #Fonts

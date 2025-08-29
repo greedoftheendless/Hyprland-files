@@ -20,6 +20,7 @@
   home.packages = with pkgs; [
     #Temporary packages
     nushell
+    tetris
 
     #Hyprland required packages
     waybar
@@ -112,4 +113,3 @@
     protonplus
   ];
 }
-
