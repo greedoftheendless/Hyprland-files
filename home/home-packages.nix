@@ -14,13 +14,19 @@
     enableFishIntegration = true;
   };
 
+  #Enable zoxide
+  programs.zoxide = {
+    enable = true;
+    enableNushellIntegration = true;
+    options = [ "--cmd cd" ];
+  };
+
   #Enable hyprpanel
   programs.hyprpanel.enable = true;
 
   home.packages = with pkgs; [
     #Temporary packages
     nushell
-    tetris
 
     #Hyprland required packages
     waybar
@@ -43,7 +49,6 @@
     bat
     tree
     fd
-    zoxide
 
     # Necessary tools
     ghostty
@@ -99,7 +104,6 @@
     curl
     croc
     spotify
-    fastfetch
     vesktop
     kdePackages.kdenlive
     dropbox
@@ -108,8 +112,6 @@
     protonvpn-gui
     cava
     obs-studio
-    atuin
-    cmatrix
     protonplus
   ];
 }
