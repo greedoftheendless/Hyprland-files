@@ -179,3 +179,57 @@ ls -la
 cd conf nu
 cd conf
 ls
+lgit
+cd ..
+cd home/
+ls
+zed home-packages.nix
+nh os switch
+cd conf
+zoxide
+zoxide conf
+zoxide dot
+nh os switch
+cd conf
+cd
+cd dot
+zoxide dot
+z dot
+cd
+cd dot
+z dot
+git status
+cd dot
+z dot
+git status
+git diff .config/nushell/config.nu
+lgit
+cd fish
+cd .config/fish/
+ls
+cd
+z fish
+ls
+nvim config.fish
+cat
+ls
+cat config.fish
+wls
+ls
+zed config.fish
+ls
+cd dot
+ls
+cd dotfiles/
+ls
+cd home/
+ls
+nvim home-packages.nix
+cd ..
+ls
+cd nixos/
+ls
+sudo nvim system-packages.nix
+ls
+sudo nvim configuration.nix
+cd
