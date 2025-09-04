@@ -8,6 +8,10 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zen-browser = {
+      url = "github:0xc000022070/zen-browser-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -22,6 +26,8 @@
             inputs.home-manager.nixosModules.default
             ({
               nix.settings.auto-optimise-store = true;
+
+              #Automatic garbage collection of nix generations
               nix.gc = {
                 automatic = true;
                 dates = "daily";

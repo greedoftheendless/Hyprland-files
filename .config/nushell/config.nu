@@ -4,11 +4,14 @@ cat ~/.cache/wal/sequences
 #Alias for yazi
 alias yz = yazi
 
-#Alias for exit
-alias et = exit
-
 #Alias for LazyGit
 alias lgit = lazygit
+
+#Alias for zoxide
+#alias cd = "z"
+
+#Alias for cat
+alias cat = "bat"
 
 #Alias for Zed
 alias zed = zeditor

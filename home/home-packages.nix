@@ -98,6 +98,7 @@
     # Web/Common Apps
     zed-editor
     librewolf
+    inputs.zen-browser.packages.${pkgs.system}.default
     firefox
     libreoffice-still
     wget
