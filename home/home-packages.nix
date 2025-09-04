@@ -97,7 +97,7 @@
 
     # Web/Common Apps
     zed-editor
-    librewolf
+    #librewolf
     inputs.zen-browser.packages.${pkgs.system}.default
     firefox
     libreoffice-still
