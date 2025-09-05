@@ -233,3 +233,72 @@ sudo nvim system-packages.nix
 ls
 sudo nvim configuration.nix
 cd
+ls
+cd
+cd dot
+cd dotfiles/
+cd
+cd dot
+z dot
+z down
+z dot conf hypr
+ls
+z py
+ls
+bat program-1.py
+cat program-1.py
+open program-1.py
+z py
+ls
+ncat program-1.py
+zi
+cd dot
+git status
+z dot
+git status
+sgit
+git s
+git-status
+find
+find dot
+cd
+find dot
+1..10 | input list --fuzzy
+ls --fuzzy
+ls
+1..10 | input list
+ls | input list 
+ls | input list --fuzzy
+z dot
+zi
+ls
+ls | grep nu
+yz
+ls
+cd
+ls
+cd dot nix
+z dot nix
+ls
+sudo nvim configuration.nix
+sudo nvim system-packages.nix
+sudo nvim hardware-configuration.nix
+sudo nvim configuration.nix
+nh os switch
+gemini
+cd
+nh home
+nh -h
+fish
+sudo nvim system-packages.nix
+nh os switch
+echo $SHELL
+echo $env.SHELL
+swaync
+dunst
+mako
+z dot
+ls
+git status
+lgit
+nh os switch

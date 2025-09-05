@@ -17,7 +17,6 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = "greed";
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Enable networking
   networking.networkmanager.enable = true;
@@ -75,7 +74,7 @@
       "video"
       "input"
     ];
-    shell = pkgs.fish;
+    shell = pkgs.nushell;
     ignoreShellProgramCheck = true;
   };
 

@@ -3,14 +3,8 @@ set -g fish_greeting "Welcome, $USER!"
 # Import pywal color sequences
 cat ~/.cache/wal/sequences &
 
-# Run fastfetch
-#fastfetch
-
 #Alias for yazi
 alias yz=yazi
-
-#Alias for exit
-alias et=exit
 
 #Alias for LazyGit
 alias lgit=lazygit

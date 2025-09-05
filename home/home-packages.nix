@@ -26,6 +26,9 @@
 
   home.packages = with pkgs; [
     #Temporary packages
+
+    #Shell
+    #fish
     nushell
 
     #Hyprland required packages

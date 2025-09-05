@@ -7,7 +7,7 @@ cursor-style = bar
 cursor-color = F5E0DC
 
 # Shell
-command = fish
+command = nu
 
 # Background
 background-opacity = 0.9

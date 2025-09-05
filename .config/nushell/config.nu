@@ -1,45 +1,20 @@
-# Import pywal color sequences
-cat ~/.cache/wal/sequences
+# Source environment variables first
+source functions/env.nu
 
-#Alias for yazi
-alias yz = yazi
+# Source core functionality
+source functions/starship.nu
+source functions/zoxide.nu
+source functions/pywal.nu
 
-#Alias for LazyGit
-alias lgit = lazygit
+# Source convenience features
+source functions/aliases.nu
+source functions/fzf.nu
+source functions/fzf_helpers.nu
+source functions/keybindings.nu
+source functions/greeting.nu
 
-#Alias for zoxide
-#alias cd = "z"
-
-#Alias for cat
-alias cat = "bat"
-
-#Alias for Zed
-alias zed = zeditor
-
-#Alias for nixvim
-alias nvim = nix run github:spector700/Akari
-
-# ---- Starship prompt ----
-mkdir ($nu.data-dir | path join "vendor/autoload")
-starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
-
-# ---- FZF config ----
-$env.FZF_DEFAULT_COMMAND = 'fd --hidden --strip-cwd-prefix --exclude .git'
-$env.FZF_CTRL_T_COMMAND = $env.FZF_DEFAULT_COMMAND
-$env.FZF_ALT_C_COMMAND = 'fd --type=d --hidden --strip-cwd-prefix --exclude .git'
-
-# Preview behavior for fzf
-def __fzf_preview [path: path] {
-    if ($path | path type) == "dir" {
-        eza --tree --color=always $path | lines | take 200
-    }
-    else {
-        bat --style=numbers --color=always --line-range=:500 $path
-    }
-}
-
-# Zoxide (better cd)
-zoxide init nushell | save -f ~/.zoxide.nu
-source ~/.zoxide.nu
-
+#Hide elephant banner
 $env.config.show_banner = false
+
+# Show custom greeting
+greeting

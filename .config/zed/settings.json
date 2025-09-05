@@ -1,4 +1,7 @@
 {
+  "agent": {
+    "play_sound_when_agent_done": true
+  },
   "icon_theme": "Catppuccin Mocha",
   "telemetry": {
     "metrics": false
