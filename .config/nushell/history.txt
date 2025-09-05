@@ -302,3 +302,11 @@ ls
 git status
 lgit
 nh os switch
+cd ~/.config
+yz
+cd dot
+z dot
+ls
+ls -la
+nvim .gitignore
+nmtui
