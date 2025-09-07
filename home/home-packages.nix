@@ -50,7 +50,6 @@
     gemini-cli
     atuin
     openssl
-    eza
     bat
     tree
     fd
