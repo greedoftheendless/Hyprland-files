@@ -74,7 +74,7 @@
       "video"
       "input"
     ];
-    shell = pkgs.nushell;
+    shell = pkgs.fish;
     ignoreShellProgramCheck = true;
   };
 

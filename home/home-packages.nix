@@ -18,6 +18,7 @@
   programs.zoxide = {
     enable = true;
     enableNushellIntegration = true;
+    enableFishIntegration = true;
     options = [ "--cmd cd" ];
   };
 
@@ -28,7 +29,7 @@
     #Temporary packages
 
     #Shell
-    #fish
+    fish
     nushell
 
     #Hyprland required packages
