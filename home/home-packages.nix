@@ -48,6 +48,7 @@
 
     # CLI Tools
     gemini-cli
+    atuin
     openssl
     eza
     bat

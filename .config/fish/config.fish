@@ -15,6 +15,9 @@ alias zed=zeditor
 #Alias for nixvim
 alias nvim "nix run github:spector700/Akari"
 
+#Alias for ls(using nu's table format)
+alias ls="nu -c ls"
+
 # ---- Starship prompt ----
 starship init fish | source
 
@@ -33,9 +36,6 @@ function __fzf_preview
 end
 
 # Aliases
-alias ll="eza --color=always --icons=always --git --tree --only-dirs --level=1"
-alias ls="eza --color=always --icons=always --git"
-alias lsa="eza --color=always --icons=always --git --tree --only-dirs --level=1 --all"
 alias cat="bat"
 alias cd="z"  # Requires `zoxide`
 
