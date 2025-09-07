@@ -1,4 +1,4 @@
-set -g fish_greeting "Welcome, $USER!"
+set -g fish_greeting "🦊 Welcome, $USER!"
 
 # Import pywal color sequences
 cat ~/.cache/wal/sequences &
