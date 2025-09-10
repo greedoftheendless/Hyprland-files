@@ -1,5 +1,8 @@
 set -g fish_greeting "🦊 Welcome, $USER!"
 
+# Simple ls aliases
+alias la="eza --long --color=always"
+
 # Import pywal color sequences
 cat ~/.cache/wal/sequences &
 

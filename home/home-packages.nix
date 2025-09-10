@@ -49,6 +49,7 @@
     # CLI Tools
     gemini-cli
     atuin
+    eza
     openssl
     bat
     tree
@@ -101,7 +102,6 @@
 
     # Web/Common Apps
     zed-editor
-
     thunderbird
     #librewolf
     inputs.zen-browser.packages.${pkgs.system}.default
