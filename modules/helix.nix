@@ -2,7 +2,7 @@
 
 {
   programs.helix = {
-    
+
     settings = {
       theme = "catppuccin_mocha"; # User can change this later
       editor = {
@@ -34,15 +34,15 @@
         {
           name = "python";
           language-servers = [ "pylsp" ];
-        },
+        }
         {
           name = "go";
           language-servers = [ "gopls" ];
-        },
+        }
         {
           name = "nix";
           language-servers = [ "nil" ];
-        },
+        }
         {
           name = "bash";
           language-servers = [ "bash-language-server" ];
