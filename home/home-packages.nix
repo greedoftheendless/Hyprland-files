@@ -102,6 +102,7 @@
     # Web/Common Apps
     zed-editor
     helix
+    
     thunderbird
     #librewolf
     inputs.zen-browser.packages.${pkgs.system}.default
