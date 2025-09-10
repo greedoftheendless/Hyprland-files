@@ -12,14 +12,14 @@ alias lgit=lazygit
 #Alias for Zed
 alias zed=zeditor
 
-#Alias for nixvim
-alias nvim "nix run github:spector700/Akari"
-
 #Alias for ls(using nu's table format)
 alias ls="nu -c ls"
 
 # ---- Starship prompt ----
 starship init fish | source
+
+# ---- Atuin ----
+atuin init fish | source
 
 # ---- FZF config ----
 set -gx FZF_DEFAULT_COMMAND 'fd --hidden --strip-cwd-prefix --exclude .git'
