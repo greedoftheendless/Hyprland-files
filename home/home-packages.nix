@@ -8,6 +8,14 @@
   #Enabling Hyprland
   #wayland.windowManager.hyprland.enable
 
+  programs.helix = {
+    enable = true;
+    settings = {
+      theme = "catppuccin_mocha";
+      color_scheme = "catppuccin_mocha";
+    };
+  };
+
   #setting fzf properly
   programs.fzf = {
     enable = true;
