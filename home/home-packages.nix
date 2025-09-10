@@ -62,7 +62,7 @@
     xfce.thunar
     kdePackages.gwenview
     yazi
-    inputs.nixvim.packages.${pkgs.system}.default
+
     starship
     btop
     binutils
@@ -101,8 +101,7 @@
 
     # Web/Common Apps
     zed-editor
-    helix
-    
+
     thunderbird
     #librewolf
     inputs.zen-browser.packages.${pkgs.system}.default
