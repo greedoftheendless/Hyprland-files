@@ -42,6 +42,13 @@
     };
   };
 
+  #Wireshark
+  programs.wireshark = {
+    enable = true;
+    dumpcap.enable = true;
+    usbmon.enable = true;
+  };
+
   #Installing applications/packages using enable option
   programs.steam.enable = true;
 

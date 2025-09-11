@@ -8,6 +8,9 @@
   #Enabling Hyprland
   #wayland.windowManager.hyprland.enable
 
+  #Installing Helix
+  programs.helix.enable = true;
+
   #setting fzf properly
   programs.fzf = {
     enable = true;
@@ -56,6 +59,7 @@
     fd
 
     # Necessary tools
+    python3
     ghostty
     kitty
     git
@@ -63,7 +67,6 @@
     xfce.thunar
     kdePackages.gwenview
     yazi
-
     starship
     btop
     binutils
@@ -76,7 +79,6 @@
     caffeine-ng
 
     #Pentesting and related tools
-    wireshark
     netdiscover
     nmap
     nftables
