@@ -64,7 +64,7 @@
     kitty
     git
     tealdeer
-    xfce.thunar
+    cosmic-files
     kdePackages.gwenview
     yazi
     starship
@@ -106,6 +106,7 @@
     zed-editor
     thunderbird
     #librewolf
+    tor-browser
     inputs.zen-browser.packages.${pkgs.system}.default
     firefox
     libreoffice-still

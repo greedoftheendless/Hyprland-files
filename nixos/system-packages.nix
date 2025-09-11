@@ -55,6 +55,7 @@
     upower-notify
     nwg-look
     nwg-menu
+    pkgs.adwaita-icon-theme
     swaynotificationcenter
   ];
 
@@ -73,6 +74,7 @@
     noto-fonts-lgc-plus
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
-    pkgs.adwaita-icon-theme
+    papirus-icon-theme
+    tokyonight-gtk-theme
   ];
 }
