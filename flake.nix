@@ -1,9 +1,9 @@
 {
-  description = "Greed's Nix-Flake";
+  description = "Greed's Flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

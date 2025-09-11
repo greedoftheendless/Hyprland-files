@@ -73,6 +73,7 @@
       "wheel"
       "video"
       "input"
+      "wireshark"
     ];
     shell = pkgs.fish;
     ignoreShellProgramCheck = true;

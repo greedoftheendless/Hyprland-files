@@ -1,4 +1,10 @@
-@import "dracula.rasi"
+@import "themes/dracula.rasi"
+
+* {
+    border-color: @background-alt;
+    background-color-elements: @background-alt;
+    text-color: @foreground;
+}
 
 // General Configurations
 configuration {

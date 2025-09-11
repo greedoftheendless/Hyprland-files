@@ -3,7 +3,6 @@
 {
   imports = [
     ./home-packages.nix
-    ../modules/helix.nix
   ];
 
   fonts.fontconfig.enable = true;
