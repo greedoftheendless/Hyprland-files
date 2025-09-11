@@ -75,7 +75,7 @@
     nerd-fonts._0xproto
     nerd-fonts.iosevka-term-slab
     fira-code-symbols
-    noto-fonts # Helps with displaying non english stuff like: 𓂿
+    noto-fonts
     noto-fonts-lgc-plus
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
