@@ -51,6 +51,8 @@
 
     # CLI Tools
     gemini-cli
+    cava
+    #fastfetch
     atuin
     eza
     openssl
