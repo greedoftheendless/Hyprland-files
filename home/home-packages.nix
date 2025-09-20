@@ -95,6 +95,8 @@
     hashcat
     steghide
     git-dumper
+    bettercap
+    unixtools.netstat
     burpsuite
     stegseek
     wpscan
@@ -103,6 +105,7 @@
     tcpdump
 
     # Web/Common Apps
+    kalker
     zed-editor
     thunderbird
     #librewolf

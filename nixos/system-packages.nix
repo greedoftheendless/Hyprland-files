@@ -26,6 +26,8 @@
 
   nixpkgs.config.allowUnfree = true;
 
+  nix.package = pkgs.nixVersions.latest;
+
   #Enabling/Installing hyprland
   programs.hyprland.enable = true;
 
