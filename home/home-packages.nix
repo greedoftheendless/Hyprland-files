@@ -51,6 +51,7 @@
 
     # CLI Tools
     gemini-cli
+    zellij
     cava
     #fastfetch
     atuin
@@ -61,6 +62,8 @@
     fd
 
     # Necessary tools
+    usbguard
+    usbguard-notifier
     python3
     ghostty
     kitty
