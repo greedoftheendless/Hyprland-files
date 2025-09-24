@@ -98,6 +98,7 @@
     crunch
     nikto
     hashcat
+    exploitdb
     steghide
     git-dumper
     bettercap

@@ -51,7 +51,6 @@
 
     #Terminal tools
     nh
-    wireshark
     better-control
     upower
     upower-notify

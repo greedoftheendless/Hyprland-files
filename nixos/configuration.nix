@@ -79,6 +79,13 @@
     ignoreShellProgramCheck = true;
   };
 
+  #Fixing wireshark issue
+  services.udev = {
+    extraRules = ''
+      SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
+    '';
+  };
+
   # Enable the nftables firewall.
   networking.firewall.enable = true;
 
