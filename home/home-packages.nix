@@ -112,6 +112,7 @@
 
     # Web/Common Apps
     kalker
+    rofimoji
     zed-editor
     thunderbird
     #librewolf
