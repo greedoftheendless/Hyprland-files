@@ -74,6 +74,7 @@
       "video"
       "input"
       "wireshark"
+      "tshark"
     ];
     shell = pkgs.fish;
     ignoreShellProgramCheck = true;

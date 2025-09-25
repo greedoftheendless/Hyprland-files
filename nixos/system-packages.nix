@@ -54,6 +54,8 @@
     better-control
     upower
     upower-notify
+    wireshark
+    tshark
     nwg-look
     nwg-menu
     pkgs.adwaita-icon-theme

@@ -23,7 +23,7 @@
           modules = [
             nixos/configuration.nix
             nixos/system-packages.nix
-            nixos/wireshark.nix
+            
             inputs.home-manager.nixosModules.default
             ({
               nix.settings.auto-optimise-store = true;
