@@ -30,18 +30,6 @@
   # Select internationalisation properties.
   i18n.defaultLocale = "en_GB.UTF-8";
 
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_IN";
-    LC_IDENTIFICATION = "en_IN";
-    LC_MEASUREMENT = "en_IN";
-    LC_MONETARY = "en_IN";
-    LC_NAME = "en_IN";
-    LC_NUMERIC = "en_IN";
-    LC_PAPER = "en_IN";
-    LC_TELEPHONE = "en_IN";
-    LC_TIME = "en_IN";
-  };
-
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
@@ -73,35 +61,10 @@
       "wheel"
       "video"
       "input"
-      "wireshark"
-      "tshark"
     ];
     shell = pkgs.fish;
-    ignoreShellProgramCheck = true;
+    #ignoreShellProgramCheck = true;
   };
-
-  #Fixing wireshark issue
-  services.udev = {
-    extraRules = ''
-      SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
-    '';
-  };
-
-  # Enable the nftables firewall.
-  networking.firewall.enable = true;
-
-  # Define specific ports to allow inbound TCP traffic.
-  networking.firewall.allowedTCPPorts = [
-    80
-    443
-  ];
-
-  # Define specific ports to allow inbound UDP traffic.
-  networking.firewall.allowedUDPPorts = [
-    53
-    67
-    68
-  ];
 
   system.stateVersion = "25.05";
 }
