@@ -5,22 +5,12 @@
 }:
 {
 
-  #Enabling Hyprland
-  #wayland.windowManager.hyprland.enable
-
   #Installing Helix
   programs.helix.enable = true;
-
-  #setting fzf properly
-  programs.fzf = {
-    enable = true;
-    enableFishIntegration = true;
-  };
 
   #Enable zoxide
   programs.zoxide = {
     enable = true;
-    enableNushellIntegration = true;
     enableFishIntegration = true;
     options = [ "--cmd cd" ];
   };
@@ -69,9 +59,9 @@
     kitty
     git
     tealdeer
-    cosmic-files
+    nemo
     kdePackages.gwenview
-    yazi
+    lf
     starship
     btop
     binutils
