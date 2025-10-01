@@ -6,9 +6,6 @@ alias la="eza --long --color=always -aa"
 # Import pywal color sequences
 cat ~/.cache/wal/sequences &
 
-#Alias for yazi
-alias yz=yazi
-
 #Alias for LazyGit
 alias lgit=lazygit
 
@@ -24,20 +21,6 @@ starship init fish | source
 # ---- Atuin ----
 atuin init fish | source
 
-# ---- FZF config ----
-set -gx FZF_DEFAULT_COMMAND 'fd --hidden --strip-cwd-prefix --exclude .git'
-set -gx FZF_CTRL_T_COMMAND $FZF_DEFAULT_COMMAND
-set -gx FZF_ALT_C_COMMAND 'fd --type=d --hidden --strip-cwd-prefix --exclude .git'
-
-# Preview behavior for fzf
-function __fzf_preview
-    if test -d $argv[1]
-        eza --tree --color=always $argv[1] | head -n 200
-    else
-        bat -n --color=always --line-range :500 $argv[1]
-    end
-end
-
 # Aliases
 alias cat="bat"
 alias cd="z" # Requires `zoxide`
@@ -47,10 +30,6 @@ zoxide init fish | source
 
 # Pipx user bin path
 set -gx PATH $PATH $HOME/.local/bin
-
-# Ctrl+Arrow key word movement
-bind \e\[1\;5C forward-word
-bind \e\[1\;5D backward-word
 
 # Enable completion colors
 set -g fish_color_autosuggestion brblack
