@@ -24,6 +24,9 @@
   #Enable bluetooth
   hardware.bluetooth.enable = true;
 
+  #Enable TLP for power management
+  services.tlp.enable = true;
+
   # Set your time zone.
   time.timeZone = "Asia/Kolkata";
 
@@ -63,7 +66,7 @@
       "input"
     ];
     shell = pkgs.fish;
-    #ignoreShellProgramCheck = true;
+    ignoreShellProgramCheck = true;
   };
 
   system.stateVersion = "25.05";
