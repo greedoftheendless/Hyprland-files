@@ -60,6 +60,7 @@
     nwg-menu
     pkgs.adwaita-icon-theme
     swaynotificationcenter
+    tlp
   ];
 
   #Fonts
