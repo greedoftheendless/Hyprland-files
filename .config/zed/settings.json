@@ -14,5 +14,8 @@
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Macchiato"
   },
-  "buffer_font_family": "JetBrainsMono Nerd Font"
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "minimap": {
+    "show": "always"
+  }
 }
