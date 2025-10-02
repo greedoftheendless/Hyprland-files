@@ -56,6 +56,7 @@
     usbguard-notifier
     python3
     ghostty
+    alacritty
     kitty
     git
     tealdeer
