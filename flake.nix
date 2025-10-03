@@ -4,6 +4,21 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
+    niri = {
+      url = "github:sodiboo/niri-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    quickshell = {
+      url = "github:outfoxxed/quickshell";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    hjem = {
+      url = "github:/feel-co/hjem";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -23,7 +38,7 @@
           modules = [
             nixos/configuration.nix
             nixos/system-packages.nix
-            
+             inputs.niri.nixosModules.niri
             inputs.home-manager.nixosModules.default
             ({
               nix.settings.auto-optimise-store = true;
@@ -32,7 +47,7 @@
               nix.gc = {
                 automatic = true;
                 dates = "daily";
-                options = "--delete-older-than 10d";
+                options = "--delete-older-than 5d";
               };
             })
           ];
