@@ -19,7 +19,6 @@
   programs.hyprpanel.enable = true;
 
   home.packages = with pkgs; [
-    #Temporary packages
 
     #Shell
     fish
