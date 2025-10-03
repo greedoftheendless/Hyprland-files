@@ -6,30 +6,27 @@
 {
   # Enable SSH
   services.openssh.enable = true;
-
   #Adding bluetooth
   services.blueman.enable = true;
-
   #Adding power-management
   services.upower.enable = true;
-
   #Adding nix-experimental command features and nix flakes
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
   ];
-
   #Pointing nh the direction of flake
   environment.sessionVariables = {
     NH_FLAKE = "$HOME/dotfiles";
   };
-
   nixpkgs.config.allowUnfree = true;
-
   nix.package = pkgs.nixVersions.latest;
 
   #Enabling/Installing hyprland
   programs.hyprland.enable = true;
+
+  #Enabling/Installing niri
+  programs.niri.enable = true;  # ADD THIS LINE
 
   #Enabling SSDM login screen
   services.displayManager.sddm.enable = true;
@@ -43,13 +40,13 @@
       greed = import ../home/home.nix;
     };
   };
-
   #Installing applications/packages using enable option
   programs.steam.enable = true;
-
   environment.systemPackages = with pkgs; [
-
     #Terminal tools
+    xwayland
+    xwayland-satellite
+    xwayland-run
     nh
     better-control
     upower
@@ -62,7 +59,6 @@
     swaynotificationcenter
     tlp
   ];
-
   #Fonts
   fonts.packages = with pkgs; [
     noto-fonts
