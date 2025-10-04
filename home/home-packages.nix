@@ -115,7 +115,6 @@
     croc
     spotify
     vesktop
-    kdePackages.kdenlive
     dropbox
     obsidian
     copyq
