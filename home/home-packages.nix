@@ -20,7 +20,7 @@
 
   home.packages = with pkgs; [
 
-    #Shell
+    #Shells
     fish
     nushell
 
