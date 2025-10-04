@@ -128,7 +128,6 @@ binds {
     Mod+Tab { show-hotkey-overlay; }
 
     // Screenshots
-    Ctrl+F5 { spawn "hyprshot" "-m" "window"; }
     Shift+F5 { spawn "hyprshot" "-m" "region"; }
 
     // Workspace switching 1-9
@@ -228,5 +227,5 @@ debug {
 
 // ========== ENVIRONMENT VARIABLES ==========
 environment {
-    HYPRSHOT_DIR "$HOME/Pictures/Screenshots"
+    HYPRSHOT_DIR "/home/greed/Pictures/Screenshots"
 }
