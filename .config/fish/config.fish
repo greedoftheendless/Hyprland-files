@@ -19,7 +19,7 @@ alias ls="nu -c ls"
 starship init fish | source
 
 # ---- Atuin ----
-atuin init fish | source
+atuin init fish | sed 's/-k up/up/' | source
 
 # Aliases
 alias cat="bat"
