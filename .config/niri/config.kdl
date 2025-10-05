@@ -201,16 +201,15 @@ spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
 spawn-at-startup "zen-beta"
 spawn-at-startup "copyq"
-// Note: pywal commands need to be in a script
 spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
 
 // ========== OUTPUT CONFIGURATION ==========
-// output "eDP-1" {
-//     mode "1920x1080@60"
+ output "eDP-1" {
+     mode "1920x1080@120"
 //     scale 1.0
 //     transform "normal"
 //     position x=0 y=0
-// }
+ }
 
 // ========== MISC SETTINGS ==========
 screenshot-path "~/Pictures/Screenshots/screenshot-%Y-%m-%d-%H-%M-%S.png"
