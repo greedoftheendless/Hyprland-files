@@ -160,6 +160,9 @@ binds {
     // Workspace navigation with mouse (removed allow-when)
     Mod+WheelScrollDown { focus-workspace-down; }
     Mod+WheelScrollUp { focus-workspace-up; }
+    Mod+Up { focus-workspace-up; }
+    Mod+Down { focus-workspace-down; }
+    
 
     // Window resizing
     Mod+Shift+Right { set-column-width "+10%"; }
