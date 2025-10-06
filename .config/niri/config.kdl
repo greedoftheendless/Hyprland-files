@@ -101,11 +101,14 @@ binds {
     Mod+Space { spawn "rofi" "-show" "drun"; }
     Mod+L { spawn "hyprlock"; }
     Mod+D { "toggle-overview";}
-    Mod+Shift+D { "toggle-overview"; }
 
     // Window navigation (focus) using arrow keys
     Mod+Left { focus-column-left; }
     Mod+Right { focus-column-right; }
+
+    // Window floating rules
+    Mod+V { toggle-window-floating; }
+    Alt+V { switch-focus-between-floating-and-tiling; }
 
     // Move windows
     // Removed duplicate conflicting binds for Mod+Shift+H/L
