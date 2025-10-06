@@ -101,6 +101,7 @@ binds {
     Mod+Space { spawn "rofi" "-show" "drun"; }
     Mod+L { spawn "hyprlock"; }
     Mod+D { "toggle-overview";}
+    Mod+Shift+D { "toggle-overview"; }
 
     // Window navigation (focus) using arrow keys
     Mod+Left { focus-column-left; }
@@ -183,13 +184,11 @@ binds {
 
 // ========== WINDOW RULES ==========
 window-rule {
-    // Example: Float specific apps
-    // match app-id="org.kde.polkit-kde-authentication-agent-1"
-    // open-floating true
+draw-border-with-background false
 
-    // Example: Open apps on specific workspace
-    // match app-id="firefox"
-    // open-on-workspace 1
+    match app-id="zen-beta"
+    opacity 0.95
+
 }
 
 // ========== SPAWN AT STARTUP ==========
