@@ -4,10 +4,6 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-    niri = {
-      url = "github:sodiboo/niri-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
     quickshell = {
       url = "github:outfoxxed/quickshell";
@@ -38,7 +34,6 @@
           modules = [
             nixos/configuration.nix
             nixos/system-packages.nix
-             inputs.niri.nixosModules.niri
             inputs.home-manager.nixosModules.default
             ({
               nix.settings.auto-optimise-store = true;
@@ -47,7 +42,7 @@
               nix.gc = {
                 automatic = true;
                 dates = "daily";
-                options = "--delete-older-than 5d";
+                options = "--delete-older-than 10d";
               };
             })
           ];
