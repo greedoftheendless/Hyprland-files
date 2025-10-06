@@ -1,0 +1,64 @@
+
+{
+  "layer": "top",
+  "position": "top",
+  "height": 0,
+  "spacing": 0,
+  "margin-top": 12,
+  "margin-bottom": 5,
+  "margin-left": 200,
+  "margin-right": 200,
+    "modules-left": ["niri/workspaces"],
+    "modules-center": ["date", "clock"],
+    "modules-right": [ "tray","backlight", "pulseaudio", "battery"],
+    "sway/scratchpad": {
+      "format": "󱂬 {count}"
+    },
+    "pulseaudio": {
+    	"format": "{volume}%"
+    },
+    "backlight": {
+    "format": "{percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+  },
+    "niri/workspaces": {
+      "format": "{index}"
+    },
+    "mpris": {
+    	"format": "{status_icon} {artist} - {title}",
+    	"format-stopped": "",
+    	"status-icons": {
+    		"paused": "⏸",
+    		"playing": "󰐊"
+    	},
+    	"interval": "0.1"
+    },
+    "clock": {
+      "format": "{:%I:%M %p}",
+        "interval": 1,
+        "tooltip-format": "{:%A %d %B %Y}"
+    },
+    "tray": {
+    	"spacing": 12
+    },
+    "gamemode": {
+        "glyph": "   ",
+        "format": "{glyph}",
+        "use-icon": false,
+        "icon-spacing": 16
+    },
+    "memory": {
+        "format": "  {percentage}%",
+        "interval": 1
+    },
+    "cpu": {
+        "format": "  {usage}%",
+        "interval": 1
+    },
+    "battery": {
+    	"format": "{capacity}%",
+    	"format-charging": "{capacity}% ",
+    	"format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    	"interval": 1
+    }
+}
