@@ -8,6 +8,7 @@
   "margin-right": 10,
   "modules-left": [
     "custom/power",
+    "custom/spotify",
     "clock",
     //"wlr/taskbar",
     "custom/memory",
@@ -28,7 +29,7 @@
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",
-    "ignore-list": ["Alacritty"],
+    "ignore-list": ["ghostty"],
     "app_ids-mapping": {
       "firefoxdeveloperedition": "firefox-developer-edition",
     },
@@ -63,7 +64,8 @@
   },
   // Clock module
   "clock": {
-    "format": "<b>[ <span foreground=\"#d08770\">󰅐  {:%H:%M:%S}</span> ]</b>",
+    "interval": 1,
+    "format": "<b>[ <span foreground=\"#d08770\">󰅐  {:%I:%M:%S %p}</span> ]</b>",
     "format-alt": "<b>[ <span foreground=\"#d08770\">󰃮  {:%d.%m.%Y}</span> ]</b>",
     "tooltip": false,
   },

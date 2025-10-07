@@ -5,51 +5,7 @@ while true; do
   volume=$(echo "$volume_info" | awk '{print $2}')
   muted=$(echo "$volume_info" | grep -o "\[MUTED\]")
 
-  # Calculate percent manually using if branches
-  percent=0
-  if (( $(echo "$volume >= 1.0" | bc -l) )); then
-    percent=100
-  elif (( $(echo "$volume >= 0.95" | bc -l) )); then
-    percent=95
-  elif (( $(echo "$volume >= 0.9" | bc -l) )); then
-    percent=90
-  elif (( $(echo "$volume >= 0.85" | bc -l) )); then
-    percent=85
-  elif (( $(echo "$volume >= 0.8" | bc -l) )); then
-    percent=80
-  elif (( $(echo "$volume >= 0.75" | bc -l) )); then
-    percent=75
-  elif (( $(echo "$volume >= 0.7" | bc -l) )); then
-    percent=70
-  elif (( $(echo "$volume >= 0.65" | bc -l) )); then
-    percent=65
-  elif (( $(echo "$volume >= 0.6" | bc -l) )); then
-    percent=60
-  elif (( $(echo "$volume >= 0.55" | bc -l) )); then
-    percent=55
-  elif (( $(echo "$volume >= 0.5" | bc -l) )); then
-    percent=50
-  elif (( $(echo "$volume >= 0.45" | bc -l) )); then
-    percent=45
-  elif (( $(echo "$volume >= 0.4" | bc -l) )); then
-    percent=40
-  elif (( $(echo "$volume >= 0.35" | bc -l) )); then
-    percent=35
-  elif (( $(echo "$volume >= 0.3" | bc -l) )); then
-    percent=30
-  elif (( $(echo "$volume >= 0.25" | bc -l) )); then
-    percent=25
-  elif (( $(echo "$volume >= 0.2" | bc -l) )); then
-    percent=20
-  elif (( $(echo "$volume >= 0.15" | bc -l) )); then
-    percent=15
-  elif (( $(echo "$volume >= 0.1" | bc -l) )); then
-    percent=10
-  elif (( $(echo "$volume >= 0.05" | bc -l) )); then
-    percent=5
-  else
-    percent=0
-  fi
+  percent=$(echo "scale=0; $volume * 100 / 1" | bc)
 
   # Determine filled blocks manually
   filled_blocks=0

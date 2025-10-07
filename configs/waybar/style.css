@@ -13,12 +13,12 @@ window#waybar {
     min-width: 10px; 
 }
 window#waybar > box {
-    min-width: 10px;  
-    min-height: 1428px;
+    min-height: 10px;  
+    min-width: 1428px;
     border-radius: 8px;
     
     border: 1px solid rgba(69, 71, 90, 1.0);
-    margin-left: 1px;
+    margin-top: 1px;
     background-color:  #11111b;
     /* box-shadow: 2px 3px 3px 1px #000000; */
 }
@@ -44,7 +44,7 @@ tooltip {
 }
 
 box#launcher {
-    margin-top: 15px;
+    margin-left: 15px;
     border-radius: 5px;
     background-color: #11111b;
 }
@@ -52,21 +52,21 @@ box#launcher {
 #tray {
 
     border-radius: 2px;
-    margin-top: 15px;
+    margin-left: 15px;
     padding-left: 2px;
 }
 
 #cpu {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
     color: @fg;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
 }
 
 #memory {
     color: @fg;
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
     padding-right: 5px;
     font-size: 20px;
     color: @memory;
@@ -75,14 +75,14 @@ box#launcher {
 }
 
 #temperature {
-    margin-bottom: 10px;
+    margin-right: 10px;
     color: @fg;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
 }
 
 
 #custom-weather {
-    margin-top: 12px;
+    margin-left: 12px;
     padding-right: 0px;
     color: @weather;
     font-weight: 800;
@@ -98,8 +98,8 @@ box#launcher {
 }
 
 #custom-updates {
-    margin-top: 5px;
-    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 3px;
     color: @updates;
     font-size: 12px;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
@@ -108,8 +108,8 @@ box#launcher {
 #taskbar {
     margin-left: 6px;
     margin-right: 6px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
     padding: 3px 5px;
     background-color: alpha(@container, 0.95);
     border-radius: 10px;
@@ -121,8 +121,8 @@ box#launcher {
 box#themes, #custom-memory, #custom-spotify {
     margin-left: 6px;
     margin-right: 6px;
-    margin-top: 5px;
-    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-right: 7px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: alpha(@container, 0.95);
@@ -131,8 +131,8 @@ box#themes, #custom-memory, #custom-spotify {
   }
 
 #custom-theme-switcher {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 15px;
     color: @themes;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
@@ -144,8 +144,8 @@ box#themes, #custom-memory, #custom-spotify {
 
 #workspaces {
   background-color: #1D1D2C;
-  margin: 0px 15px 0px 15px;
-  padding: 15px 8px 15px 8px;
+  margin: 15px 0px 15px 0px;
+  padding: 8px 15px 8px 15px;
   border: 1px solid rgba(16, 16, 16, 1);
   border-radius: 1px;
 }
@@ -153,8 +153,8 @@ box#themes, #custom-memory, #custom-spotify {
 #workspaces button {
   background-color: #2d3139;
   color: #b3b7bd;
-  margin: 4px 0px 4px 0px;
-  padding: 5px 0px 5px 0px;
+  margin: 0px 4px 0px 4px;
+  padding: 0px 5px 0px 5px;
   border-radius: 2px;
   font-size: 0px;
 }
@@ -162,7 +162,7 @@ box#themes, #custom-memory, #custom-spotify {
 #workspaces button.focused {
   color: #171C21;
   border-bottom: none;
-  padding: 8px 0px 8px 0px;
+  padding: 0px 8px 0px 8px;
 }
 
 #workspaces button.active {
@@ -170,7 +170,7 @@ box#themes, #custom-memory, #custom-spotify {
 background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b88 100%);
   color: #171C21;
   border-bottom: none;
-  padding: 15px 0px 15px 0px;
+  padding: 0px 15px 0px 15px;
   transition: all 0s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
@@ -182,7 +182,7 @@ background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b8
 /* Right Modules */
 
 #pulseaudio-slider {
-    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #pulseaudio-slider slider {
@@ -197,14 +197,14 @@ background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b8
 }
 
 #pulseaudio-slider trough {
-    min-height: 100px;
-    min-width: 10px;
+    min-width: 100px;
+    min-height: 10px;
     border-radius: 5px;
     background-color: rgb(10, 10, 10);
 }
 
 #pulseaudio-slider highlight {
-    min-width: 5px;
+    min-height: 5px;
     border-radius: 5px;
     background-image: none;
     background-color: @slider-highlight;
@@ -219,8 +219,8 @@ background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b8
 
 #clock.calender {
     font-size: 11px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
     font-family: "JetBrainsMono Nerd Font";
     color: @calender;
     text-shadow: 5 2 2px rgb(0, 0, 0);
@@ -228,7 +228,7 @@ background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b8
 
 
 #clock {
-    margin-bottom: 15px;
+    margin-right: 15px;
     font-size: 14px;
     color: @clock;
     font-family: "JetBrainsMono Nerd Font";
@@ -236,24 +236,24 @@ background: linear-gradient(135deg, #fdf4c1 0%, #3b4b78 40%, #6ee3f7 70%, #ff6b8
 }
 
 #custom-power {
-    margin-bottom: 15px;
-    padding-right: 3px;
+    margin-right: 15px;
+    padding-bottom: 3px;
     font-size: 18px;
     color: @power;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
 }
 
 #custom-reboot {
-    margin-top: 5px;
-    margin-bottom: 7px;
-    padding-right: 2px;
+    margin-left: 5px;
+    margin-right: 7px;
+    padding-bottom: 2px;
     font-size: 18px;
     color: @reboot ;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
 }
 
 #custom-quit {
-    padding-right: 2px;
+    padding-bottom: 2px;
     font-size: 17px;
     color: @logout;
     text-shadow: 5 2 3px rgba(0, 0, 0, 1);
