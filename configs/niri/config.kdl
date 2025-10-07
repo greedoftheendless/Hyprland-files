@@ -23,6 +23,12 @@ input {
     focus-follows-mouse
 }
 
+// Make workspaces four times smaller than normal in the overview.
+overview {
+    zoom 0.3
+    backdrop-color "#777777"
+}
+
 // ========== LAYOUT CONFIGURATION ==========
 layout {
     gaps 2

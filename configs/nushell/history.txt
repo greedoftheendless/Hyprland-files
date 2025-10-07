@@ -1,0 +1,61 @@
+ls
+waybar &
+cd dot
+z dot
+ls
+bat .gitignore
+ls = nu -c "ls"
+git rm --cached .config/nushell/history.txt
+ls .config/nushell/
+lgit
+git status
+ls
+lgit
+wireshark
+lgit
+git status
+ls ~/.config/nushell
+ls .config/nushell/
+pwd
+z nix
+l
+ls
+z homr
+z home
+ls
+z dot configs/
+z dot 
+z nixos/
+ls
+sudo nvim configuration.nix
+nh os switch
+echo $SHELL
+fish
+z dot conf fish
+ls
+bat config.fish
+ls
+bat config.fish
+ghostty
+cd ~/.config/fish
+ls
+z dot conf fush
+z dot conf fish
+ls
+ls -la
+ls -la
+ls
+ls
+echo $SHELL
+nh os switch
+source ~/.config/fish
+cd ~/.config/fish
+ls
+source config.fish
+z ~conf
+cd ~/.config/ghostty
+ls
+bat config
+z dot conf ghostty
+pwd
+ls

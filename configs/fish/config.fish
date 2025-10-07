@@ -4,7 +4,7 @@ set -g fish_greeting "🦊 Welcome, $USER!"
 alias la="eza --long --color=always -aa"
 
 # Import pywal color sequences
-cat ~/.cache/wal/sequences &
+# cat ~/.cache/wal/sequences &
 
 #Alias for LazyGit
 alias lgit=lazygit
