@@ -4,6 +4,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
+    niri-scratchpad = {
+        url = "github:gvolpe/niri-scratchpad";
+        inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     quickshell = {
       url = "github:outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";

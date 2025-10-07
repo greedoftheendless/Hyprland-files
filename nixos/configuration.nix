@@ -69,6 +69,8 @@
     ignoreShellProgramCheck = true;
   };
 
+  boot.loader.systemd-boot.memtest86.enable = true;
+
    environment.variables = {
       NIXOS_OZONE_WL = "1";
 

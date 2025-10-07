@@ -1,4 +1,4 @@
-{
+o
   pkgs,
   inputs,
   ...
@@ -16,7 +16,7 @@
   };
 
   #Enable hyprpanel
-  programs.hyprpanel.enable = true;
+  #programs.hyprpanel.enable = true;
 
   home.packages = with pkgs; [
 
@@ -24,11 +24,12 @@
     fish
     nushell
 
-    #Hyprland required packages
+    #Hyprland/Niri required packages
     waybar
     hyprlock
     hypridle
     pywal
+    cosmic-launcher
     rofi
     wlogout
     waypaper
@@ -37,6 +38,7 @@
     hyprshot
     hyprpicker
     ffmpeg
+    inputs.niri-scratchpad.packages.${pkgs.system}.default
 
     # CLI Tools
     gemini-cli
@@ -51,6 +53,8 @@
     fd
 
     # Necessary tools
+    playerctl
+    bc
     brightnessctl
     usbguard
     usbguard-notifier
@@ -73,6 +77,7 @@
     podman-tui
     xournalpp
     caffeine-ng
+    zenity
 
     #Pentesting and related tools
     netdiscover

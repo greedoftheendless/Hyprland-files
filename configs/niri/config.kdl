@@ -168,7 +168,7 @@ binds {
     Mod+WheelScrollUp { focus-workspace-up; }
     Mod+Up { focus-workspace-up; }
     Mod+Down { focus-workspace-down; }
-    
+
 
     // Window resizing
     Mod+Shift+Right { set-column-width "+10%"; }
@@ -212,7 +212,7 @@ spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
 spawn-at-startup "zen-beta"
 spawn-at-startup "copyq"
-spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
+//spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
 
 // ========== OUTPUT CONFIGURATION ==========
  output "eDP-1" {
