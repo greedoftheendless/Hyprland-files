@@ -51,6 +51,7 @@
     fd
 
     # Necessary tools
+    brightnessctl
     usbguard
     usbguard-notifier
     python3
@@ -102,6 +103,7 @@
 
     # Web/Common Apps
     kalker
+    catppuccin
     rofimoji
     zed-editor
     thunderbird

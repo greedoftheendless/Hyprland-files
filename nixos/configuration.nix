@@ -75,9 +75,5 @@
       ELECTRON_LAUNCH_FLAGS = "--enable-wayland-ime --wayland-text-input-version=3 --enable-features=WaylandLinuxDrmSyncobj";
     };
 
-  hardware.graphics = {
-    enable = true;
-  }
-
   system.stateVersion = "25.05";
 }
