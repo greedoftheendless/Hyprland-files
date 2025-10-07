@@ -1,4 +1,4 @@
-o
+{
   pkgs,
   inputs,
   ...
@@ -21,6 +21,7 @@ o
   home.packages = with pkgs; [
 
     #Shells
+    bash
     fish
     nushell
 
@@ -122,6 +123,7 @@ o
     croc
     spotify
     vesktop
+    legcord
     dropbox
     obsidian
     copyq

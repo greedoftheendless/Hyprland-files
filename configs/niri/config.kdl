@@ -104,6 +104,7 @@ binds {
     Mod+Return { spawn "ghostty"; }
     Mod+Q { close-window; }
     Mod+E { spawn "nemo"; }
+    //Mod+Space { spawn "cosmic-launcher"; }
     Mod+Space { spawn "rofi" "-show" "drun"; }
     Mod+L { spawn "hyprlock"; }
     Mod+D { "toggle-overview";}

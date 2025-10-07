@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/run/current-system/sw/bin/env bash
 
 
 
@@ -65,7 +65,7 @@ while true; do
   icon="󰍛"
 
   # Output with font size span (adjust 10pt or what you want)
-  echo "<span font_size='10pt'><b>[ $percent% $icon <span foreground='$color'>{$filled_bar$empty_bar}</span> ]</b></span>"
+  echo "<span font_size='10pt'><b> $percent% $icon <span foreground='$color'>{$filled_bar$empty_bar}</span> </b></span>"
 
   sleep 0.5
 done

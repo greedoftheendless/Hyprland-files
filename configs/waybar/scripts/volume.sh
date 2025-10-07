@@ -81,7 +81,7 @@ while true; do
 
   #echo "<b>[ $percent% $icon <span foreground='$color'>{$output}</span> ]</b>"
   
-echo "<span font_size='9pt'><b>[ $percent% $icon <span foreground='$color'>{$output}</span> ]</b></span>"
+echo "<span font_size='9pt'><b>$percent% $icon <span foreground='$color'>{$output}</span></b></span>"
   sleep 0.1
 done
 

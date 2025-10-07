@@ -71,7 +71,7 @@ while true; do
   # Output the final status
 #  echo "<b>[ $percent% $icon <span foreground='$color'>{$brightness_bar}</span> ]</b>"
 
-echo "<span font_size='10pt'><b>[ $percent% $icon <span foreground='$color'>{$filled_bar$empty_bar}</span> ]</b></span>"
+echo "<span font_size='10pt'><b>$percent% $icon <span foreground='$color'>{$filled_bar$empty_bar}</span></b></span>"
   sleep 0.1
 done
 
