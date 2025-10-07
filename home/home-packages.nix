@@ -123,7 +123,6 @@
     croc
     spotify
     vesktop
-    legcord
     dropbox
     obsidian
     copyq
