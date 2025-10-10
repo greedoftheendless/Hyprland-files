@@ -12,6 +12,7 @@
     "clock",
     "network",
     "custom/bluetooth",
+    "wlr/taskbar",
   ],
   "modules-center": ["niri/workspaces"],
   "modules-right": [
@@ -85,7 +86,7 @@
   },
 
   "custom/volume": {
-    "exec": "bash ~/.config/waybar/scripts/volume.sh",
+    "exec": "bash /home/greed/.config/waybar/scripts/volume.sh",
     "tooltip": false,
     "interval": 0,
     "return-type": "text",

@@ -42,6 +42,7 @@ window#waybar {
 #custom-volume:hover,
 #custom-brightness:hover,
 #network:hover,
+#custom-battery:hover,
 #custom-bluetooth:hover {
     background: #2a2f42;
 }
@@ -87,4 +88,8 @@ menu {
 
 #workspaces button.focused {
     background: #545c7e;
+}
+
+#custom-background-apps {
+    color: #88c0d0;
 }

@@ -43,7 +43,7 @@
 
     # CLI Tools
     gemini-cli
-    zellij
+    tmux
     cava
     #fastfetch
     atuin
