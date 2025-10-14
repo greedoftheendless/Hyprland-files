@@ -59,3 +59,5 @@ bat config
 z dot conf ghostty
 pwd
 ls
+show create.sql
+cat create.sql
