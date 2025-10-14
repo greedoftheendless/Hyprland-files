@@ -6,9 +6,8 @@ Initially crafted with a **Catppuccin theme**, I've since refined it to a more *
 
 If you find this useful, please consider **starring the repository**! Your support is a huge motivator.
 
-Have an idea for a tweak or an improvement? Feel free to **submit a pull request**. If it aligns with the theme, I'll happily merge it.
-
-Enjoy your OS!
+Have an idea for a tweak or an improvement? Feel free to **submit a pull request**.
+Enjoy your Nixified OS!
 
 ---
 
@@ -16,21 +15,21 @@ Enjoy your OS!
 
 This configuration is packed with features to enhance your workflow and aesthetics:
 
-* 🚀 **Hyprland** - A powerful and responsive tiling Wayland Window Manager.
+* 🚀 **Hyprland/Niri** - A powerful and responsive tiling Wayland Window Manager.
 * 🏃 **Automated Installation** - An included script handles dependencies and file placement with user prompts.
-* 🎨 **Stunning UI** - Beautiful **Hyprpanel** and **Waybar**, featuring a customizable GUI, and a refined **Rofi** configuration.
+* 🎨 **Stunning UI** - Beautiful **Waybar**, featuring and a refined **Rofi** configuration.
 * 🖥️ **Custom Theming** - A bespoke **GTK theme**, custom cursors, and icon sets.
 * 🖋️️ **Ghostyy Terminal** - A sleek and functional terminal configuration.
-* 🔒 **Secure & Stylish Lockscreen** - **Hyprlock** provides a seamless, animated lock screen with a custom KDE-style wallpaper.
+* 🔒 **Secure & Stylish Lockscreen** - **Hyprlock** provides a seamless, animated lock screen.
 * 🌄 **Dynamic Wallpapers** - A wallpaper daemon using `swww` and `mpvpaper`, controlled by a GUI tool called **Waypaper**.
-* 🎵 **Media Controls** - Seamless **play/pause/next** functionality for your media.
-* 🧩 **Smart Workspaces** - Efficient **scratchpads** and dynamic workspaces for enhanced productivity.
+* 🧩 **Smart Workspaces** - Efficient **scratchpads(hyprland)** and dynamic workspaces for enhanced productivity.
 * 🤖 **Multi-Management** - Streamlined control with the `better-control` application.
-* 🐚 **Fish & Starship** - A powerful **Fish shell** with a visually appealing **Starship prompt**.
+* 🐚 **Fish & Starship** - A powerful **Fish shell+Nu shell** with a visually appealing **Starship prompt**.
 * 🔄 **Auto-Start** - Configured for automatic application and script execution on startup.
 * ⚡ **Lightweight & Responsive** - A highly optimized configuration for optimal performance.
 
-> **Need help with keybindings?** Just press `Super` + `SHIFT` + `H` to access the keybinding guide.
+> **Need help with keybindings?** Just press `Tab'  to access the keybinding guide on Niri.
+> Need to make a keybind one for hyprpanel though I'm not active on hyprland so much. Will make it if possible
 
 ---
 
@@ -50,20 +49,21 @@ Witness the aesthetic in action!
 
 ---
 
-## 🛠 Installation
+### 🛠 Installation
 
 > ⚠️ **WARNING**: This setup is intended for **NixOS**. Due to the declarative nature of Nix, following these steps will give you an exact copy of my system.
 
 ### 1. Clone the repository
-
 ```bash
 git clone [https://github.com/greedoftheendless/Hyprland-files](https://github.com/greedoftheendless/Hyprland-files)
 
 ### 2. Prepare the dotfiles
-
 Place the contents of the cloned repository into a folder of your choice (e.g., `~/dotfiles`).
 
-### 3. Rebuild your system
+### 3. Things to remember before running the implementation command
+Make sure that the duplicate Nix folder in /etc/nixos is deleted. To make this operation work smoothly, make sure to symlink all the folders in dotfiles/.config to ~/.config, and symlink the folder dotfiles/nixos to /etc/nixos so that in the future when you make any changes or any config changes there wont be any issues.
+
+### 4. Rebuild your system
 
 Rebuild your system using the following command to apply the configuration.
 
@@ -77,9 +77,9 @@ sudo nixos-rebuild switch
 * **Wallpapers:** Managed by `Waypaper`, utilizing `swww` and `mpvpaper` as the engine.
 * **Notifications:** Handled by Sway Notifications Control (`Swaync`).
 * **Audio:** Managed through `pavucontrol` and `wpctl`.
-* **Lock Screen:** Uses `Hyprpanel` with a music player widget (currently under development) and custom theming.
-* **Auto-Start:** Configured in `$HOME/.config/hypr/hyprland.conf` under the `exec` lines.
-* **Scratchpads:** Configured for quick access to terminals, music, and notes.
+* **Lock Screen:** Uses `Hyprlock` with a music player widget (currently under development, shutdown, lock, sleep options, and custom theming.
+* **Auto-Start:** Configured in `$HOME/.config/hypr/hyprland.conf` under the `exec` lines and in the confifuration file of ~/.config/niri.
+* **Scratchpads(For Hyprland):** Configured for quick access to terminals, music, and notes.
 * **Waybar:** Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
 
 ---
@@ -92,7 +92,6 @@ Inspired by and based on the incredible work from:
 * r/unixporn
 * shell-ninja's repo
 * Void ninja's repo
-* JaKooLit's dots
 * Aeon Remnant (for the file structure and Nix mentoring)
 * The VimJoyers Discord community (for making Nix exploration fun and collaborative)
 
@@ -103,7 +102,8 @@ And many others... (Your contributions are never forgotten!)
 ### 📝 To-Do List
 
 * Create a Bash script to automate the installation process for non-NixOS users.
-* Improve Pywal integration for better and more responsive theming.
+* Make NVIDIA drivers running on Niri so that gaming will be possible.
+* Change from making .config files to making all configurations in the Nix Language so it will be easier to implement for the nix users
 
 **Stay hungry, stay foolish. Keep customizing!**
 
