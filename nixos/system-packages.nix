@@ -42,6 +42,11 @@
   };
   #Installing applications/packages using enable option
   programs.steam.enable = true;
+  programs.wireshark = {
+    enable = true;
+    package = pkgs.wireshark;
+  };
+
   environment.systemPackages = with pkgs; [
     #Terminal tools
     xwayland
@@ -51,7 +56,6 @@
     better-control
     upower
     upower-notify
-    wireshark
     tshark
     nwg-look
     nwg-menu
