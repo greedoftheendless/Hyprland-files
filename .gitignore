@@ -1,5 +1,2 @@
-.config/nushell/history.txt
-.config/hyprpanel/modules.json
-.config/hyprpanel/config.ini
-.config/hyprpanel/modules.scss
-.config/helix/runtime
+configs/nushell/history.txt
+configs/helix/runtime
