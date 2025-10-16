@@ -1,6 +1,7 @@
 theme = "catppuccin_mocha"
 
 [editor]
+mouse = true
 # Visual enhancements
 line-number = "relative"
 cursorline = true
@@ -156,14 +157,14 @@ tabpad = "·"
 "x" = ":write-quit"
 "/" = "global_search"
 "?" = "command_palette"
+"b" = "buffer_picker"
+"g" = ":sh lazygit"
 
 [keys.normal.space.f]
 "f" = "file_picker"
 "r" = "file_picker_in_current_directory"
 "g" = "global_search"
 "d" = ":sh yazi"
-
-"b" = "buffer_picker"
 
 # Insert mode keybindings
 [keys.insert]
