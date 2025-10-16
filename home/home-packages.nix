@@ -26,6 +26,7 @@
     nushell
 
     #Hyprland/Niri required packages
+    quickshell
     waybar
     hyprlock
     hypridle
@@ -53,13 +54,15 @@
     tree
     fd
 
+    #Languages and their packages
+    python3
+
     # Necessary tools
     playerctl
     bc
     brightnessctl
     usbguard
     usbguard-notifier
-    python3
     ghostty
     alacritty
     kitty
