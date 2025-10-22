@@ -16,11 +16,11 @@ in {
 
     hardware.nvidia = {
       modesetting.enable = true;
+      nvidiaSettings = true;
       powerManagement.enable = true;
       powerManagement.finegrained = true;
       open = true;
 
-      # TODO: make option
       prime = {
         offload = {
           enable = true;
