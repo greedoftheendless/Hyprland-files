@@ -110,9 +110,7 @@
     tcpdump
 
     # Web/Common Apps
-    kalker
     catppuccin
-    rofimoji
     zed-editor
     thunderbird
     #librewolf
