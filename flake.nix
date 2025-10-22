@@ -4,11 +4,6 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-    niri-scratchpad = {
-        url = "github:gvolpe/niri-scratchpad";
-        inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     quickshell = {
       url = "github:outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -21,6 +16,11 @@
 
     home-manager = {
       url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    vicinae = {
+      url = "github:/vicinaehq/vicinae";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
