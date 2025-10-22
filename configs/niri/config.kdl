@@ -105,7 +105,8 @@ binds {
     Mod+Q { close-window; }
     Mod+E { spawn "nemo"; }
     //Mod+Space { spawn "cosmic-launcher"; }
-    Mod+Space { spawn "rofi" "-show" "drun"; }
+    //Mod+Space { spawn "rofi" "-show" "drun"; }
+    Mod+Space { spawn "vicinae" "toggle"; }
     Mod+L { spawn "hyprlock"; }
     Mod+D { "toggle-overview";}
 
@@ -213,14 +214,12 @@ spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
 spawn-at-startup "zen-beta"
 spawn-at-startup "copyq"
+spawn-at-startup "run-sh-at-start" "vicinae server"
 //spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
 
 // ========== OUTPUT CONFIGURATION ==========
  output "eDP-1" {
      mode "1920x1080@120"
-//     scale 1.0
-//     transform "normal"
-//     position x=0 y=0
  }
 
 // ========== MISC SETTINGS ==========
