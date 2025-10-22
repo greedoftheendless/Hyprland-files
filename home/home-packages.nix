@@ -15,6 +15,8 @@
     options = [ "--cmd cd" ];
   };
 
+  programs.fish.enable = true;
+
   #Enable hyprpanel
   #programs.hyprpanel.enable = true;
 
@@ -22,7 +24,6 @@
 
     #Shells
     bash
-    fish
     nushell
 
     #Hyprland/Niri required packages

@@ -3,6 +3,7 @@
 {
   imports = [
     ./home-packages.nix
+    ./modules/fish.nix
   ];
 
   fonts.fontconfig.enable = true;
