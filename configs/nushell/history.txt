@@ -61,3 +61,12 @@ pwd
 ls
 show create.sql
 cat create.sql
+ls
+open main.typ
+ls
+typst compile main.typ
+ls
+xdg-open main.pdf
+xournal main.pdf
+xournal++ main.pdf
+xournal

@@ -79,9 +79,9 @@
     openvpn
     podman
     podman-tui
-    xournalpp
     caffeine-ng
-    zenity
+    kdePackages.okular
+    typst
 
     #Pentesting and related tools
     netdiscover
