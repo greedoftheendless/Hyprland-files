@@ -15,8 +15,6 @@
     options = [ "--cmd cd" ];
   };
 
-  programs.fish.enable = true;
-
   #Enable hyprpanel
   #programs.hyprpanel.enable = true;
 
@@ -41,7 +39,7 @@
     hyprshot
     hyprpicker
     ffmpeg
-    inputs.niri-scratchpad.packages.${pkgs.system}.default
+    inputs.vicinae.packages.${pkgs.system}.default
 
     # CLI Tools
     gemini-cli
