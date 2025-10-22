@@ -1,2 +1,3 @@
 configs/nushell/history.txt
 configs/helix/runtime
+configs/btop/btop.conf
