@@ -133,8 +133,8 @@ binds {
     Mod+B { spawn "zen-beta"; }
     Mod+Shift+Comma { spawn "waypaper"; }
     Mod+Alt+H { spawn "better-control"; }
-    Mod+Alt+L { spawn "copyq" "toggle"; }
-    Mod+Shift+Space { spawn "rofi" "-show" "ssh"; }
+    Mod+Alt+L { spawn "vicinae" "vicinae://extensions/vicinae/clipboard/history"; }
+    Mod+Shift+Space { spawn "vicinae" "toggle"; }
 
     // Overview mode (workspace overview)
     Mod+Tab { show-hotkey-overlay; }
@@ -205,7 +205,7 @@ draw-border-with-background false
 
 }
 
-// ========== SPAWN AT STARTUP ==========
+// ========== AUTOSTART ==========
 spawn-at-startup "ghostty"
 spawn-at-startup "waybar"
 spawn-at-startup "hypridle"
@@ -214,7 +214,7 @@ spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
 spawn-at-startup "zen-beta"
 spawn-at-startup "copyq"
-spawn-at-startup "run-sh-at-start" "vicinae server"
+spawn-at-startup "vicinae" "server"
 //spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
 
 // ========== OUTPUT CONFIGURATION ==========
