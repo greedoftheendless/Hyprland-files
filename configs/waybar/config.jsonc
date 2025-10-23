@@ -114,7 +114,7 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname} ",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "ghostty nmtui",
+    "on-click": "/home/greed/dotfiles/configs/waybar/scripts/wifitui.sh",
   },
 
   "custom/bluetooth": {
