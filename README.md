@@ -37,7 +37,7 @@ This configuration is packed with features to enhance your workflow and aestheti
 
 Witness the aesthetic in action!
 
-**Hyprland**
+**Niri/Hyprland Looks and App Looks**
 
 | **Home Page** | **Hyprpanel (Dashboard)** | **Fastfetch** |
 | :---: | :---: | :---: |
@@ -46,6 +46,8 @@ Witness the aesthetic in action!
 | ![Rofi - Apps](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Apps.png) | ![Rofi - Files](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Rofi-Files.png) | ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png) |
 | **Spotify (Spicetify)** | **Terminal Show** | **Better Control** |
 | ![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify.png) | ![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png) | ![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png) |
+| **Niri OverView** | **Vicinae** | **Vicinae Clipboard** |
+| ![Niri OverView](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Niri%20Overview.png) | ![Vicinae](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Vicinae.png) | ![Vicinae Clipboard](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Vicinae%20Clipboard.png) |
 
 ---
 
