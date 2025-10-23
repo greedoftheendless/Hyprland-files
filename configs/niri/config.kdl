@@ -194,6 +194,9 @@ binds {
     XF86AudioMicMute { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
     XF86MonBrightnessUp { spawn "brightnessctl" "s" "10%+"; }
     XF86MonBrightnessDown { spawn "brightnessctl" "s" "10%-"; }
+    XF86AudioPrev { spawn "playerctl" "previous"; }
+    XF86AudioPlay { spawn "playerctl" "play-pause"; }
+    XF86AudioNext { spawn "playerctl" "next"; }
 }
 
 // ========== WINDOW RULES ==========
