@@ -125,7 +125,7 @@
     vesktop
     dropbox
     obsidian
-    copyq
+    #copyq
     protonvpn-gui
     cava
     obs-studio
