@@ -47,7 +47,7 @@ Witness the aesthetic in action!
 | **Spotify (Spicetify)** | **Terminal Show** | **Better Control** |
 | ![Spotify (Spicetify)](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Spotify.png) | ![Terminal Show](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/Terminal%20Show.png) | ![Better Control](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/better-control.png) |
 | **Lockscreen** | | |
-| ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png) | | |
+| ![Lockscreen](https://github.com/greedoftheendless/Hyprland-files/blob/main/Screenshots/lockscreen.png)
 ---
 
 ### 🛠 Installation
