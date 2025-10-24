@@ -60,65 +60,6 @@ Witness the aesthetic in action!
 ```bash
 git clone https://github.com/greedoftheendless/Hyprland-files
 
-### 2. Prepare the dotfiles
-
-Place the contents of the cloned repository into a folder of your choice (e.g., `~/dotfiles`).
-
-### 3. Things to remember before running the implementation command
-Make sure that the duplicate Nix folder in /etc/nixos is deleted. To make this operation work smoothly, make sure to symlink all the folders in dotfiles/.config to ~/.config, and symlink the folder dotfiles/nixos to /etc/nixos so that in the future when you make any changes or any config changes there wont be any issues.
-
-### 4. Rebuild your system
-
-Rebuild your system using the following command to apply the configuration.
-
-```bash
-sudo nixos-rebuild switch
-
----
-
-## 📚 Notes & Integrations
-
-* **Wallpapers:** Managed by `Waypaper`, utilizing `swww` and `mpvpaper` as the engine.
-* **Notifications:** Handled by Sway Notifications Control (`Swaync`).
-* **Audio:** Managed through `pavucontrol` and `wpctl`.
-* **Lock Screen:** Uses `Hyprlock` with a music player widget (currently under development, shutdown, lock, sleep options, and custom theming.
-* **Auto-Start:** Configured in `$HOME/.config/hypr/hyprland.conf` under the `exec` lines and in the confifuration file of ~/.config/niri.
-* **Scratchpads(For Hyprland):** Configured for quick access to terminals, music, and notes.
-* **NVIDIA Drivers:** Installed with the latest NVIDIA drivers and AMD drivers. Please change the configuration accordingly. If yours is RTX series, then works.  
-* **Waybar:** Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
-* **Rofi/Vicinae:** Rofi is having basic features such as application search, SSH connections, and terminal tool+file selection. All of this is also possible with Vicinae and more. Check Vicinaes documentation for that here, https://docs.vicinae.com .
-
----
-
-## 🙏 Credits
-
-Inspired by and based on the incredible work from:
-
-* Hyprland Wiki
-* r/unixporn
-* shell-ninja's repo
-* Void ninja's repo
-* Aeon Remnant (for the file structure and Nix mentoring)
-* The VimJoyers Discord community (for making Nix exploration fun and collaborative)
-
-And many others... (Your contributions are never forgotten!)
-
----
-
-### 📝 To-Do List
-
-* Create a Bash script to automate the installation process for non-NixOS users.
-* Change from making .config files to making all configurations in the Nix Language so it will be easier to implement for the nix users
-
-**Stay hungry, stay foolish. Keep customizing!**
-
-— Greed
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/greedoftheendless/Hyprland-files
-
 2. Prepare the dotfiles
 
 Place the contents of the cloned repository into a folder of your choice (e.g., ~/dotfiles).
