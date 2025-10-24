@@ -56,10 +56,12 @@ Witness the aesthetic in action!
 > ⚠️ **WARNING**: This setup is intended for **NixOS**. Due to the declarative nature of Nix, following these steps will give you an exact copy of my system.
 
 ### 1. Clone the repository
+
 ```bash
-git clone [https://github.com/greedoftheendless/Hyprland-files](https://github.com/greedoftheendless/Hyprland-files)
+git clone https://github.com/greedoftheendless/Hyprland-files
 
 ### 2. Prepare the dotfiles
+
 Place the contents of the cloned repository into a folder of your choice (e.g., `~/dotfiles`).
 
 ### 3. Things to remember before running the implementation command
@@ -111,3 +113,72 @@ And many others... (Your contributions are never forgotten!)
 **Stay hungry, stay foolish. Keep customizing!**
 
 — Greed
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/greedoftheendless/Hyprland-files
+
+2. Prepare the dotfiles
+
+Place the contents of the cloned repository into a folder of your choice (e.g., ~/dotfiles).
+3. Things to remember before running the implementation command
+
+Make sure that the duplicate Nix folder in /etc/nixos is deleted.
+To make this operation work smoothly, make sure to symlink all the folders in dotfiles/.config to ~/.config, and symlink the folder dotfiles/nixos to /etc/nixos.
+That way, any future configuration changes will apply cleanly.
+4. Rebuild your system
+
+Rebuild your system using the following command to apply the configuration.
+
+sudo nixos-rebuild switch
+
+📚 Notes & Integrations
+
+    Wallpapers: Managed by Waypaper, utilizing swww and mpvpaper as the engine.
+
+    Notifications: Handled by Sway Notifications Control (Swaync).
+
+    Audio: Managed through pavucontrol and wpctl.
+
+    Lock Screen: Uses Hyprlock with a music player widget (currently under development; includes shutdown, lock, sleep options, and custom theming).
+
+    Auto-Start: Configured in $HOME/.config/hypr/hyprland.conf under the exec lines and in the configuration file of ~/.config/niri.
+
+    Scratchpads (for Hyprland): Configured for quick access to terminals, music, and notes.
+
+    NVIDIA Drivers: Installed with the latest NVIDIA and AMD drivers. Adjust configuration accordingly.
+
+    Waybar: Highly modular, supporting various modules for battery, Wi-Fi, media players, and more.
+
+    Rofi/Vicinae: Rofi offers application search, SSH connections, and terminal/file selection. Vicinae provides similar features plus more — see Vicinae Docs
+
+    .
+
+🙏 Credits
+
+Inspired by and based on the incredible work from:
+
+    Hyprland Wiki
+
+    r/unixporn
+
+    shell-ninja’s repo
+
+    Void ninja’s repo
+
+    Aeon Remnant (for file structure and Nix mentoring)
+
+    The VimJoyers Discord community (for making Nix exploration fun and collaborative)
+
+And many others — your contributions are never forgotten!
+📝 To-Do List
+
+    Create a Bash script to automate the installation process for non-NixOS users.
+
+    Transition all .config setups to Nix modules for easier management.
+
+Stay hungry, stay foolish. Keep customizing!
+
+
+  -Greed
