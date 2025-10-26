@@ -26,7 +26,23 @@ input {
 // Make workspaces four times smaller than normal in the overview.
 overview {
     zoom 0.3
-    backdrop-color "#777777"
+    workspace-shadow {
+        off
+    }
+}
+
+// Make the wallpaper stationary, rather than moving with workspaces.
+layer-rule {
+    // Find the right namespace by running niri msg layers.
+    match namespace="^swww-daemonbackdrop$"
+    place-within-backdrop true
+}
+
+// Disable the hot corners.
+gestures {
+    hot-corners {
+        off
+    }
 }
 
 // ========== LAYOUT CONFIGURATION ==========
@@ -207,8 +223,8 @@ draw-border-with-background false
 }
 
 // ========== AUTOSTART ==========
-spawn-at-startup "waybar"
 //spawn-at-startup "hypridle"
+spawn-at-startup "waybar"
 spawn-at-startup "waypaper" "--restore"
 spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
