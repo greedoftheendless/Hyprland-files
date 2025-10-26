@@ -33,14 +33,14 @@ overview {
 layout {
     gaps 2
     center-focused-column "never"
-
-    preset-column-widths {
-        proportion 0.33333
-        proportion 0.5
+    default-column-width {
         proportion 0.66667
     }
-
-    default-column-width { proportion 0.5; }
+    
+    preset-column-widths {
+        proportion 0.66667
+        proportion 0.99999
+    }
 
     focus-ring {
         width 2
@@ -104,7 +104,6 @@ binds {
     Mod+Return { spawn "ghostty"; }
     Mod+Q { close-window; }
     Mod+E { spawn "nemo"; }
-    //Mod+Space { spawn "cosmic-launcher"; }
     //Mod+Space { spawn "rofi" "-show" "drun"; }
     Mod+Space { spawn "vicinae" "toggle"; }
     Mod+L { spawn "hyprlock"; }
@@ -131,7 +130,7 @@ binds {
     Mod+F { fullscreen-window; }
     Mod+Shift+P { spawn "wlogout"; }
     Mod+B { spawn "zen-beta"; }
-    Mod+Shift+Comma { spawn "waypaper"; }
+    //Mod+Shift+Comma { spawn "waypaper"; }
     Mod+Alt+H { spawn "better-control"; }
     Mod+Alt+L { spawn "vicinae" "vicinae://extensions/vicinae/clipboard/history"; }
     Mod+Shift+Space { spawn "vicinae" "toggle"; }
@@ -178,7 +177,6 @@ binds {
 
     // Preset column widths cycling
     Mod+R { switch-preset-column-width; }
-    Mod+Shift+R { reset-window-height; }
 
     // Consume or expel window from column
     Mod+Comma { consume-window-into-column; }
@@ -209,14 +207,12 @@ draw-border-with-background false
 }
 
 // ========== AUTOSTART ==========
-spawn-at-startup "ghostty"
 spawn-at-startup "waybar"
-spawn-at-startup "hypridle"
+//spawn-at-startup "hypridle"
 spawn-at-startup "waypaper" "--restore"
 spawn-at-startup "caffeine"
 spawn-at-startup "swaync"
 spawn-at-startup "zen-beta"
-spawn-at-startup "copyq"
 spawn-at-startup "vicinae" "server"
 //spawn-at-startup "sh" "-c" "wal -R && ~/.config/hypr/scripts/wal-theme.sh"
 
