@@ -28,7 +28,7 @@
     quickshell
     waybar
     hyprlock
-    hypridle
+    #hypridle
     pywal
     cosmic-launcher
     rofi
@@ -90,8 +90,9 @@
     feroxbuster
     sqlmap
     john
+    enum4linux
     netcat
-    hydra
+    thc-hydra
     metasploit
     aircrack-ng
     crunch
@@ -116,7 +117,6 @@
     #librewolf
     tor-browser
     inputs.zen-browser.packages.${pkgs.system}.default
-    firefox
     libreoffice-still
     wget
     curl
